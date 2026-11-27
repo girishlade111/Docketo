@@ -3,6 +3,7 @@ import "@/styles/tokens.css";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://127.0.0.1:3000"),
   title: "Docketo - Webflow HTML website template",
   description:
     "Build and scale your fintech products with Docketo. Access embedded bank accounts, business accounts, safeguarding, and savings infrastructure using our secure API.",
