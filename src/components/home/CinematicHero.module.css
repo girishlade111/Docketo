@@ -27,7 +27,8 @@
 
 .revealedTitleWrap {
   text-align: center;
-  max-width: 22ch;
+  width: 100%;
+  max-width: 660px;
 }
 
 .heroMainArea {
