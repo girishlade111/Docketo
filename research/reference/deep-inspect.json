@@ -1,0 +1,1525 @@
+{
+  "capturedAt": "2026-11-27T07:46:25.775Z",
+  "browserVersion": "159.0.8154.6",
+  "discoveredInternalPaths": [
+    "/",
+    "/401",
+    "/404",
+    "/about",
+    "/business-bank",
+    "/careers",
+    "/changelog",
+    "/client-money",
+    "/contact",
+    "/cookies",
+    "/eligibility",
+    "/embedded-bank",
+    "/licenses",
+    "/news",
+    "/post-categories/company",
+    "/post-categories/compliance",
+    "/post-categories/guides",
+    "/post-categories/product",
+    "/post/building-on-our-api-a-developers-guide-to-going-live-in-weeks",
+    "/post/from-remittance-to-banking-how-africhange-expanded-with-docket",
+    "/post/giving-every-customer-their-own-bank-account-use-cases-for-embedded-banking",
+    "/post/how-embedded-bank-accounts-simplify-payment-reconciliation",
+    "/post/kyc-and-kyb-automated-a-faster-path-to-onboarding-the-right-customers",
+    "/post/safeguarding-vs-client-money-accounts-which-does-your-business-need",
+    "/post/shrinking-the-manual-review-queue-how-automated-decisions-free-up-your-team",
+    "/post/what-the-new-120-000-fscs-limit-means-for-your-customers",
+    "/post/why-we-built-business-banking-for-founders-by-founders",
+    "/pricing",
+    "/privacy",
+    "/safeguarding",
+    "/savings-accounts",
+    "/style-guide",
+    "/terms-conditions",
+    "/verify"
+  ],
+  "routeResults": [
+    {
+      "id": "home",
+      "path": "/",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/",
+      "title": "Docketo - Webflow HTML website template",
+      "scrollWidth": 1440,
+      "scrollHeight": 10415,
+      "imageCount": 92,
+      "svgCount": 0,
+      "linkCount": 60
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/about",
+      "title": "About Docketo – Empowering Fintech with API-Driven Banking",
+      "scrollWidth": 1440,
+      "scrollHeight": 6468,
+      "imageCount": 34,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "pricing",
+      "path": "/pricing",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/pricing",
+      "title": "Docketo Pricing – Flexible Infrastructure Plans for Growth",
+      "scrollWidth": 1440,
+      "scrollHeight": 3044,
+      "imageCount": 16,
+      "svgCount": 0,
+      "linkCount": 45
+    },
+    {
+      "id": "news",
+      "path": "/news",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/news",
+      "title": "Docketo News & Insights – Fintech, API Banking & Embedded Finance",
+      "scrollWidth": 1440,
+      "scrollHeight": 2703,
+      "imageCount": 14,
+      "svgCount": 0,
+      "linkCount": 57
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/contact",
+      "title": "Book a Demo – Talk to Our Embedded Banking Experts | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 1548,
+      "imageCount": 20,
+      "svgCount": 0,
+      "linkCount": 43
+    },
+    {
+      "id": "careers",
+      "path": "/careers",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/careers",
+      "title": "Careers at Docketo – Join the Future of Banking Infrastructure",
+      "scrollWidth": 1440,
+      "scrollHeight": 5715,
+      "imageCount": 23,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "embedded-bank",
+      "path": "/embedded-bank",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/embedded-bank",
+      "title": "Embedded Bank Accounts – Banking Built into Your Platform | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 5208,
+      "imageCount": 18,
+      "svgCount": 2,
+      "linkCount": 47
+    },
+    {
+      "id": "safeguarding",
+      "path": "/safeguarding",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/safeguarding",
+      "title": "Safeguarding Accounts for EMIs & PIs – Regulatory Protection | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 4371,
+      "imageCount": 34,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "savings-accounts",
+      "path": "/savings-accounts",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/savings-accounts",
+      "title": "High-Yield Savings Accounts – Interest-Bearing Solutions | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3798,
+      "imageCount": 27,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "client-money",
+      "path": "/client-money",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/client-money",
+      "title": "Client Money Accounts – CASS & CMP Compliant Banking | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 4834,
+      "imageCount": 34,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "business-bank",
+      "path": "/business-bank",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/business-bank",
+      "title": "Business Bank Accounts – Operational Banking via API & App | Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3983,
+      "imageCount": 15,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "verify",
+      "path": "/verify",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/verify",
+      "title": "Instant Account & Identity Verification – Docketo Security",
+      "scrollWidth": 1440,
+      "scrollHeight": 4898,
+      "imageCount": 25,
+      "svgCount": 0,
+      "linkCount": 45
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/privacy",
+      "title": "Privacy Policy – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 2532,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 43
+    },
+    {
+      "id": "terms-conditions",
+      "path": "/terms-conditions",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/terms-conditions",
+      "title": "Terms & Conditions – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 2047,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 43
+    },
+    {
+      "id": "cookies",
+      "path": "/cookies",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/cookies",
+      "title": "Cookie Policy – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 1987,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 42
+    },
+    {
+      "id": "eligibility",
+      "path": "/eligibility",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/eligibility",
+      "title": "Account Eligibility Requirements – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 2855,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 42
+    },
+    {
+      "id": "style-guide",
+      "path": "/style-guide",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/style-guide",
+      "title": "Style Guide – Docketo Design System",
+      "scrollWidth": 1440,
+      "scrollHeight": 3280,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "changelog",
+      "path": "/changelog",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/changelog",
+      "title": "Changelog – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 1421,
+      "imageCount": 5,
+      "svgCount": 0,
+      "linkCount": 42
+    },
+    {
+      "id": "401",
+      "path": "/401",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/401",
+      "title": "Protected Page – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 1637,
+      "imageCount": 6,
+      "svgCount": 0,
+      "linkCount": 42
+    },
+    {
+      "id": "404",
+      "path": "/404",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/404",
+      "title": "404 Page Not Found – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "imageCount": 1,
+      "svgCount": 0,
+      "linkCount": 1
+    },
+    {
+      "id": "licenses",
+      "path": "/licenses",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/licenses",
+      "title": "Asset Licenses – Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 2276,
+      "imageCount": 11,
+      "svgCount": 0,
+      "linkCount": 47
+    },
+    {
+      "id": "cat-product",
+      "path": "/post-categories/product",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post-categories/product",
+      "title": "Product– Docketo Insights",
+      "scrollWidth": 1440,
+      "scrollHeight": 1899,
+      "imageCount": 7,
+      "svgCount": 0,
+      "linkCount": 50
+    },
+    {
+      "id": "cat-compliance",
+      "path": "/post-categories/compliance",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post-categories/compliance",
+      "title": "Compliance– Docketo Insights",
+      "scrollWidth": 1440,
+      "scrollHeight": 1899,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 51
+    },
+    {
+      "id": "cat-company",
+      "path": "/post-categories/company",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post-categories/company",
+      "title": "Company– Docketo Insights",
+      "scrollWidth": 1440,
+      "scrollHeight": 1899,
+      "imageCount": 7,
+      "svgCount": 0,
+      "linkCount": 50
+    },
+    {
+      "id": "cat-guides",
+      "path": "/post-categories/guides",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post-categories/guides",
+      "title": "Guides– Docketo Insights",
+      "scrollWidth": 1440,
+      "scrollHeight": 1899,
+      "imageCount": 7,
+      "svgCount": 0,
+      "linkCount": 50
+    },
+    {
+      "id": "post-1",
+      "path": "/post/how-embedded-bank-accounts-simplify-payment-reconciliation",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/how-embedded-bank-accounts-simplify-payment-reconciliation",
+      "title": "How embedded bank accounts simplify payment reconciliation– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3392,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-2",
+      "path": "/post/kyc-and-kyb-automated-a-faster-path-to-onboarding-the-right-customers",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/kyc-and-kyb-automated-a-faster-path-to-onboarding-the-right-customers",
+      "title": "KYC and KYB, automated: a faster path to onboarding the right customers– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3322,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-3",
+      "path": "/post/why-we-built-business-banking-for-founders-by-founders",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/why-we-built-business-banking-for-founders-by-founders",
+      "title": "Why we built business banking for founders, by founders– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3300,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-4",
+      "path": "/post/shrinking-the-manual-review-queue-how-automated-decisions-free-up-your-team",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/shrinking-the-manual-review-queue-how-automated-decisions-free-up-your-team",
+      "title": "Shrinking the manual review queue: how automated decisions free up your team– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3182,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-5",
+      "path": "/post/giving-every-customer-their-own-bank-account-use-cases-for-embedded-banking",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/giving-every-customer-their-own-bank-account-use-cases-for-embedded-banking",
+      "title": "Giving every customer their own bank account: use cases for embedded banking– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3322,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-6",
+      "path": "/post/building-on-our-api-a-developers-guide-to-going-live-in-weeks",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/building-on-our-api-a-developers-guide-to-going-live-in-weeks",
+      "title": "Building on our API: a developer's guide to going live in weeks– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3296,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-7",
+      "path": "/post/from-remittance-to-banking-how-africhange-expanded-with-docket",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/from-remittance-to-banking-how-africhange-expanded-with-docket",
+      "title": "From remittance to banking: how Africhange expanded with Docket– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3406,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-8",
+      "path": "/post/what-the-new-120-000-fscs-limit-means-for-your-customers",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/what-the-new-120-000-fscs-limit-means-for-your-customers",
+      "title": "What the new $120,000 FSCS limit means for your customers– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3422,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    },
+    {
+      "id": "post-9",
+      "path": "/post/safeguarding-vs-client-money-accounts-which-does-your-business-need",
+      "httpStatus": 200,
+      "finalUrl": "https://docketo.webflow.io/post/safeguarding-vs-client-money-accounts-which-does-your-business-need",
+      "title": "Safeguarding vs. client money accounts: which does your business need?– Docketo",
+      "scrollWidth": 1440,
+      "scrollHeight": 3414,
+      "imageCount": 8,
+      "svgCount": 0,
+      "linkCount": 46
+    }
+  ],
+  "homeInitial": {
+    "docHeight": 10413,
+    "navExists": true,
+    "navClass": "navbar w-nav",
+    "navRect": {
+      "top": 0,
+      "height": 76,
+      "width": 1440
+    },
+    "navStyle": {
+      "position": "relative",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "display": "block",
+      "visibility": "visible"
+    },
+    "heroRect": {
+      "top": 0,
+      "height": 2250,
+      "width": 1440
+    },
+    "animationsCount": 0,
+    "animations": []
+  },
+  "scrollSnapshots": [
+    {
+      "fraction": 0,
+      "scrollY": 0,
+      "navTop": 0,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": 0,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2377,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2984,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 3591,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 4198,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.08,
+      "scrollY": 833,
+      "navTop": 0,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": 0,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 1544,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2151,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2758,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 3365,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.14,
+      "scrollY": 1458,
+      "navTop": -198,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -198,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 919,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 1526,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2133,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2740,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.2,
+      "scrollY": 2083,
+      "navTop": -823,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -823,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 305,
+          "rectHeight": 496,
+          "transform": "matrix(0.9587, 0, 0, 0.9587, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 901,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 1508,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 2115,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.26,
+      "scrollY": 2707,
+      "navTop": -1447,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -1447,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 117,
+          "rectHeight": 473,
+          "transform": "matrix(0.915, 0, 0, 0.915, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 288,
+          "rectHeight": 495,
+          "transform": "matrix(0.9578, 0, 0, 0.9578, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 884,
+          "rectHeight": 516,
+          "transform": "matrix(0.9989, 0, 0, 0.9989, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 1491,
+          "rectHeight": 517,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.34,
+      "scrollY": 3540,
+      "navTop": -2280,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -2280,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 121,
+          "rectHeight": 466,
+          "transform": "matrix(0.9005, 0, 0, 0.9005, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 120,
+          "rectHeight": 466,
+          "transform": "matrix(0.9019, 0, 0, 0.9019, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 110,
+          "rectHeight": 487,
+          "transform": "matrix(0.9421, 0, 0, 0.9421, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": 662,
+          "rectHeight": 508,
+          "transform": "matrix(0.9835, 0, 0, 0.9835, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.45,
+      "scrollY": 4686,
+      "navTop": -3426,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -3426,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -462,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -462,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -462,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -463,
+          "rectHeight": 466,
+          "transform": "matrix(0.902, 0, 0, 0.902, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.6,
+      "scrollY": 6248,
+      "navTop": -4988,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -4988,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -2024,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -2024,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -2024,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -2024,
+          "rectHeight": 465,
+          "transform": "matrix(0.9001, 0, 0, 0.9001, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.78,
+      "scrollY": 8122,
+      "navTop": -6862,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -6862,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -3898,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -3898,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -3898,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -3898,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "fraction": 0.92,
+      "scrollY": 9515,
+      "navTop": -8255,
+      "navBg": "rgba(0, 0, 0, 0)",
+      "navOpacity": "1",
+      "stickyEls": [
+        {
+          "tag": "div",
+          "className": "sticky-wrap",
+          "position": "sticky",
+          "top": "0px",
+          "rectTop": -8255,
+          "rectHeight": 990,
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -5291,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -5291,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -5291,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        },
+        {
+          "tag": "div",
+          "className": "app-features-card-main",
+          "position": "sticky",
+          "top": "95px",
+          "rectTop": -5291,
+          "rectHeight": 465,
+          "transform": "matrix(0.9, 0, 0, 0.9, 0, 0)",
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "videoInspect": [
+    {
+      "tag": "a",
+      "text": "Watch the video",
+      "href": "https://www.youtube.com/watch?v=_ZTSG9d0xmg",
+      "className": "secondary-button w-inline-block",
+      "dataWId": null
+    },
+    {
+      "tag": "a",
+      "text": "Play Demo",
+      "href": "https://www.youtube.com/watch?v=_ZTSG9d0xmg",
+      "className": "third-button is-hero-button w-inline-block",
+      "dataWId": null
+    }
+  ],
+  "tabStates": [
+    {
+      "activeTabText": "Payment platforms",
+      "paneText": "Handle repayments, reporting, and compliance in one place.Earn interest or commissionOpen new accounts instantlyOwn your customer experience",
+      "paneImg": "https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28b39b1aa1a3f15e47997_Rectangle%203.svg"
+    },
+    {
+      "activeTabText": "Wealth and savings apps",
+      "paneText": "Streamline reconciliation and strengthen retention in one move.Increased share-of-walletInstant reconciliationCASS compliant",
+      "paneImg": "https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28b39b1aa1a3f15e47997_Rectangle%203.svg"
+    },
+    {
+      "activeTabText": "Lending",
+      "paneText": "One infrastructure, endless payment possibilities.Fully compliantFlexible accountsCompetitive interest rates",
+      "paneImg": "https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28b39b1aa1a3f15e47997_Rectangle%203.svg"
+    },
+    {
+      "activeTabText": "Proptech solutions",
+      "paneText": "Set your clients up for success with dedicated, compliant accounts.Fast account openingStreamlined reconciliationCMP compliant",
+      "paneImg": "https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28b39b1aa1a3f15e47997_Rectangle%203.svg"
+    }
+  ],
+  "dropdownStates": [
+    {
+      "toggleText": "Products",
+      "listDisplay": "none",
+      "listBg": "rgb(221, 221, 221)",
+      "listWidth": 0,
+      "listHeight": 0,
+      "items": [
+        {
+          "text": "Embedded bank accounts",
+          "href": "/embedded-bank"
+        },
+        {
+          "text": "Business bank accounts",
+          "href": "/business-bank"
+        },
+        {
+          "text": "Savings accounts",
+          "href": "/savings-accounts"
+        },
+        {
+          "text": "Safeguarding accounts",
+          "href": "/safeguarding"
+        },
+        {
+          "text": "Verify",
+          "href": "/verify"
+        },
+        {
+          "text": "Client money accounts",
+          "href": "/client-money"
+        }
+      ]
+    },
+    {
+      "toggleText": "pages",
+      "listDisplay": "none",
+      "listBg": "rgb(221, 221, 221)",
+      "listWidth": 0,
+      "listHeight": 0,
+      "items": [
+        {
+          "text": "About",
+          "href": "/about"
+        },
+        {
+          "text": "Careers",
+          "href": "/careers"
+        },
+        {
+          "text": "Blog",
+          "href": "/news"
+        },
+        {
+          "text": "Price",
+          "href": "/pricing"
+        },
+        {
+          "text": "Cookies",
+          "href": "/cookies"
+        },
+        {
+          "text": "Eligibility",
+          "href": "/eligibility"
+        },
+        {
+          "text": "Book demo",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "styleGuideData": {
+    "swatches": [
+      {
+        "className": "color-wrapper",
+        "text": "Colors\nFFFFF\nFAFAF9\nCCCAC6\n33312C\n191815\n100F0D\n86EDA5/Green\nSuccess/Form\nError/Form",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 862,
+        "height": 772
+      },
+      {
+        "className": "text-color-h1",
+        "text": "Colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(22, 9, 35)",
+        "borderColor": "rgb(22, 9, 35)",
+        "width": 169,
+        "height": 65
+      },
+      {
+        "className": "style-guide-color-wrapper is-white is-stok",
+        "text": "",
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(204, 202, 198)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper white-100 is-stok",
+        "text": "",
+        "bg": "rgb(250, 250, 249)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(204, 202, 198)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper white-200",
+        "text": "",
+        "bg": "rgb(204, 202, 198)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-white-300",
+        "text": "",
+        "bg": "rgb(51, 49, 44)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-gray-500",
+        "text": "",
+        "bg": "rgb(25, 24, 21)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-gray-600",
+        "text": "",
+        "bg": "rgb(16, 15, 13)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-brand",
+        "text": "",
+        "bg": "rgb(124, 245, 132)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-success",
+        "text": "",
+        "bg": "rgb(69, 228, 85)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      },
+      {
+        "className": "style-guide-color-wrapper is-error",
+        "text": "",
+        "bg": "rgba(211, 50, 50, 0.85)",
+        "color": "rgb(16, 15, 13)",
+        "borderColor": "rgb(16, 15, 13)",
+        "width": 198,
+        "height": 126
+      }
+    ],
+    "buttons": [
+      {
+        "className": "secondary-button w-inline-block",
+        "text": "Book a Demo",
+        "bg": "rgb(16, 15, 13)",
+        "color": "rgb(0, 0, 238)",
+        "borderRadius": "6px",
+        "padding": "12px 20px 12px 20px",
+        "fontSize": "16px",
+        "fontFamily": "\"Generalsans Variable\", Arial, sans-serif",
+        "height": 40
+      },
+      {
+        "className": "primary-button w-inline-block",
+        "text": "Button 1st",
+        "bg": "rgb(124, 245, 132)",
+        "color": "rgb(22, 9, 35)",
+        "borderRadius": "8px",
+        "padding": "12px 16px 12px 16px",
+        "fontSize": "16px",
+        "fontFamily": "Amethysta, sans-serif",
+        "height": 40
+      }
+    ]
+  },
+  "cssDump": [
+    {
+      "url": "https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/css/docketo.webflow.shared.a20365209.css",
+      "length": 190870,
+      "fontFaces": [
+        "@font-face {\n  font-family: webflow-icons;\n  src: url(\"data:application/x-font-ttf;charset=utf-8;base64,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\") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}",
+        "@font-face {\n  font-family: Generalsans Variable;\n  src: url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6a97ea0d179fc3ce9947e018_GeneralSans-Variable.ttf\") format(\"truetype\");\n  font-weight: 200 700;\n  font-style: normal;\n  font-display: swap;\n}",
+        "@font-face {\n  font-family: Generalsans;\n  src: url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6a97ea0d542e23631d125438_GeneralSans-VariableItalic.ttf\") format(\"truetype\");\n  font-weight: 200 700;\n  font-style: normal;\n  font-display: swap;\n}"
+      ],
+      "rootVars": [
+        "--w-backdrop-animation: initial;",
+        "--large:before {\n  border-width: 5px;",
+        "--large:after {\n  border-width: 5px;",
+        "--vertical:before, .w-widget-twitter-count-shim.w--vertical:after {\n  content: \" \";",
+        "--vertical:before {\n  border-width: 5px;",
+        "--vertical:after {\n  border-width: 4px;",
+        "--_color-system---background--white-100: #fafaf9;",
+        "--_typography---boday-font: \"Generalsans Variable\", Arial, sans-serif;",
+        "--_color-system---text--black-600: var(--_color-system---background--black-600);",
+        "--_typography---paragraph-size--regular: 16px;",
+        "--_typography---paragraph-height--regular: 22px;",
+        "--_typography---paragraph--regular: 400;",
+        "--_typography---heading-font: Amethysta, sans-serif;",
+        "--_typography---heading-size--h1: 3.875vw;",
+        "--_typography---heading-height--h1: 4.5vw;",
+        "--_typography---heading-weight--h1: 400;",
+        "--_typography---heading-size--h2: 40px;",
+        "--_typography---heading-height--h2: 48px;",
+        "--_typography---heading-weight--h2: 400;",
+        "--_typography---heading-size--h3: 32px;",
+        "--_typography---heading-height--h3: 40px;",
+        "--_typography---heading-weight--h3: 400;",
+        "--_typography---heading-size--h4: 28px;",
+        "--_typography---heading-height--h4: 36px;",
+        "--_typography---heading-weight--h4: 500;",
+        "--_typography---heading-size--h5: 24px;",
+        "--_typography---heading-height--h5: 32px;",
+        "--_typography---heading-weight--h5: 400;",
+        "--_typography---heading-size--h6: 20px;",
+        "--_typography---heading-height--h6: 26px;",
+        "--_typography---heading-weight--h6: 500;",
+        "--_spacing-system---medium--30: 1.875vw;",
+        "--_spacing-system---small--16: 1em;",
+        "--_spacing-system---medium--20: 1.25vw;",
+        "--_spacing-system---small--14: .875rem;",
+        "--_spacing-system---card-radius--small: 8px;",
+        "--_color-system---background--white: white;",
+        "--_typography---button--text-size: 16px;",
+        "--_typography---button--text-weight: 16px;",
+        "--_typography---paragraph--small: 400;",
+        "--_spacing-system---small--10: .625rem;",
+        "--_typography---paragraph-size--caption: 12px;",
+        "--_typography---paragraph-height--caption: 20px;",
+        "--_spacing-system---small--12: .75rem;",
+        "--_color-system---background--black-600: #100f0d;",
+        "--_color-system---text--white: var(--_color-system---background--white);",
+        "--_color-system---brand--brand-primary: #7cf584;",
+        "--_color-system---background--white-200: #cccac6;",
+        "--_color-system---background--white-300: #33312c;",
+        "--_color-system---background--gray-500: #191815;",
+        "--_spacing-system---section-spacing--padding-small: 30px;",
+        "--_spacing-system---medium--50: 3.125vw;",
+        "--_spacing-system---medium--24: 1.5rem;",
+        "--_color-system---text--white-100: var(--_color-system---background--white-100);",
+        "--_color-system---text--white-200: var(--_color-system---background--white-200);",
+        "--_color-system---text--white-300: var(--_color-system---background--white-300);",
+        "--_color-system---text--gray-500: var(--_color-system---background--gray-500);",
+        "--_spacing-system---medium--26: 1.625rem;",
+        "--_spacing-system---section-spacing--padding-large: 8.125vw;",
+        "--_spacing-system---section-spacing--header-top: 100px;",
+        "--_spacing-system---section-spacing--padding-medium: 4.375vw;",
+        "--_spacing-system---medium--40: 2.5rem;",
+        "--_spacing-system---small--6: .375rem;",
+        "--_typography---button--text-small: 14px;",
+        "--_typography---button--text-weight-small: 14px;",
+        "--_typography---paragraph-size--small: 14px;",
+        "--_typography---paragraph-height--small: 18px;",
+        "--_spacing-system---medium--42: 2.625rem;",
+        "--_spacing-system---medium--18: 1.125rem;",
+        "--_spacing-system---large--60: 3.75vw;",
+        "--_spacing-system---large--80: 5vw;",
+        "--_spacing-system---large--70: 4.375vw;",
+        "--_color-system---form--error: #d33232;",
+        "--_spacing-system---large--56: 3.5rem;",
+        "--_spacing-system---medium--32: 2rem;",
+        "--_spacing-system---large--64: 4rem;",
+        "--_spacing-system---small--8: .5rem;",
+        "--_color-system---form--success: #45e455;",
+        "--_spacing-system---medium--36: 2.25rem;",
+        "--_spacing-system---large--66: 4.125rem;",
+        "--_spacing-system---small--4: .25rem;",
+        "--_spacing-system---large--100: 6.25vw;",
+        "--_spacing-system---medium--48: 3rem;",
+        "--_spacing-system---large--72: 4.5rem;",
+        "--_spacing-system---medium--46: 2.875rem;",
+        "--_spacing-system---large--76: 4.75vw;",
+        "--_color-system---boday--white: var(--_color-system---background--white);",
+        "--_color-system---buttons--primary: var(--_color-system---brand--brand-primary);",
+        "--_color-system---buttons--secondary: #160923;",
+        "--_spacing-system---large--52: 3.25rem;",
+        "--_typography---paragraph--caption: 400;",
+        "--_spacing-system---card-radius--medium: 16px;",
+        "--_spacing-system---card-radius--large: 20px;",
+        "--_spacing-system---medium--30: 1.875vw;",
+        "--_spacing-system---small--16: 1em;",
+        "--_spacing-system---medium--20: 1.25vw;",
+        "--_spacing-system---small--14: .875rem;",
+        "--_spacing-system---card-radius--small: 8px;",
+        "--_spacing-system---small--10: .625rem;",
+        "--_spacing-system---small--12: .75rem;",
+        "--_spacing-system---section-spacing--padding-small: 30px;",
+        "--_spacing-system---medium--50: 3.125vw;",
+        "--_spacing-system---medium--24: 1.5rem;",
+        "--_spacing-system---medium--26: 1.625rem;",
+        "--_spacing-system---section-spacing--padding-large: 8.125vw;",
+        "--_spacing-system---section-spacing--header-top: 100px;",
+        "--_spacing-system---section-spacing--padding-medium: 4.375vw;",
+        "--_spacing-system---medium--40: 2.5rem;",
+        "--_spacing-system---small--6: .375rem;",
+        "--_spacing-system---medium--42: 2.625rem;",
+        "--_spacing-system---medium--18: 1.125rem;",
+        "--_spacing-system---large--60: 3.75vw;",
+        "--_spacing-system---large--80: 5vw;",
+        "--_spacing-system---large--70: 4.375vw;",
+        "--_spacing-system---large--56: 3.5rem;",
+        "--_spacing-system---medium--32: 2rem;",
+        "--_spacing-system---large--64: 4rem;",
+        "--_spacing-system---small--8: .5rem;",
+        "--_spacing-system---medium--36: 2.25rem;",
+        "--_spacing-system---large--66: 4.125rem;",
+        "--_spacing-system---small--4: .25rem;",
+        "--_spacing-system---large--100: 6.25vw;",
+        "--_spacing-system---medium--48: 3rem;",
+        "--_spacing-system---large--72: 4.5rem;",
+        "--_spacing-system---medium--46: 2.875rem;",
+        "--_spacing-system---large--76: 4.75vw;",
+        "--_spacing-system---large--52: 3.25rem;",
+        "--_spacing-system---card-radius--medium: 16px;",
+        "--_spacing-system---card-radius--large: 20px;",
+        "--_color-system---background--white-100: #fafaf9;",
+        "--_color-system---text--black-600: var(--_color-system---background--black-600);",
+        "--_color-system---background--white: white;",
+        "--_color-system---background--black-600: #100f0d;",
+        "--_color-system---text--white: var(--_color-system---background--white);",
+        "--_color-system---brand--brand-primary: #7cf584;",
+        "--_color-system---background--white-200: #cccac6;",
+        "--_color-system---background--white-300: #33312c;",
+        "--_color-system---background--gray-500: #191815;",
+        "--_color-system---text--white-100: var(--_color-system---background--white-100);",
+        "--_color-system---text--white-200: var(--_color-system---background--white-200);",
+        "--_color-system---text--white-300: var(--_color-system---background--white-300);",
+        "--_color-system---text--gray-500: var(--_color-system---background--gray-500);",
+        "--_color-system---form--error: #d33232;",
+        "--_color-system---form--success: #45e455;",
+        "--_color-system---boday--white: var(--_color-system---background--white);",
+        "--_color-system---buttons--primary: var(--_color-system---brand--brand-primary);",
+        "--_color-system---buttons--secondary: #160923;",
+        "--_typography---boday-font: \"Generalsans Variable\", Arial, sans-serif;",
+        "--_typography---paragraph-size--regular: 16px;",
+        "--_typography---paragraph-height--regular: 22px;",
+        "--_typography---paragraph--regular: 400;",
+        "--_typography---heading-font: Amethysta, sans-serif;",
+        "--_typography---heading-size--h1: 3.875vw;",
+        "--_typography---heading-height--h1: 4.5vw;",
+        "--_typography---heading-weight--h1: 400;",
+        "--_typography---heading-size--h2: 40px;",
+        "--_typography---heading-height--h2: 48px;",
+        "--_typography---heading-weight--h2: 400;",
+        "--_typography---heading-size--h3: 32px;",
+        "--_typography---heading-height--h3: 40px;",
+        "--_typography---heading-weight--h3: 400;",
+        "--_typography---heading-size--h4: 28px;",
+        "--_typography---heading-height--h4: 36px;",
+        "--_typography---heading-weight--h4: 500;",
+        "--_typography---heading-size--h5: 24px;",
+        "--_typography---heading-height--h5: 32px;",
+        "--_typography---heading-weight--h5: 400;",
+        "--_typography---heading-size--h6: 20px;",
+        "--_typography---heading-height--h6: 26px;",
+        "--_typography---heading-weight--h6: 500;",
+        "--_typography---button--text-size: 16px;",
+        "--_typography---button--text-weight: 16px;",
+        "--_typography---paragraph--small: 400;",
+        "--_typography---paragraph-size--caption: 12px;",
+        "--_typography---paragraph-height--caption: 20px;",
+        "--_typography---button--text-small: 14px;",
+        "--_typography---button--text-weight-small: 14px;",
+        "--_typography---paragraph-size--small: 14px;",
+        "--_typography---paragraph-height--small: 18px;",
+        "--_typography---paragraph--caption: 400;",
+        "--_spacing-system---medium--30: 1.875vw;",
+        "--_spacing-system---small--16: 1em;",
+        "--_spacing-system---medium--20: 1.25vw;",
+        "--_spacing-system---small--14: .875rem;",
+        "--_spacing-system---card-radius--small: 8px;",
+        "--_spacing-system---small--10: .625rem;",
+        "--_spacing-system---small--12: .75rem;",
+        "--_spacing-system---section-spacing--padding-small: 30px;",
+        "--_spacing-system---medium--50: 3.125vw;",
+        "--_spacing-system---medium--24: 1.5rem;",
+        "--_spacing-system---medium--26: 1.625rem;",
+        "--_spacing-system---section-spacing--padding-large: 8.125vw;",
+        "--_spacing-system---section-spacing--header-top: 100px;",
+        "--_spacing-system---section-spacing--padding-medium: 4.375vw;",
+        "--_spacing-system---medium--40: 2.5rem;",
+        "--_spacing-system---small--6: .375rem;",
+        "--_spacing-system---medium--42: 2.625rem;",
+        "--_spacing-system---medium--18: 1.125rem;",
+        "--_spacing-system---large--60: 3.75vw;",
+        "--_spacing-system---large--80: 5vw;"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Amethysta:400",
+      "length": 388,
+      "fontFaces": [
+        "@font-face {\n  font-family: 'Amethysta';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/amethysta/v17/rP2Fp2K15kgb_F3ibfW4Hz-D.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}"
+      ],
+      "rootVars": []
+    }
+  ],
+  "networkAssetsCount": 151
+}
