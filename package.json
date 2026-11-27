@@ -1,0 +1,39 @@
+{
+  "name": "docketo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docketo embedded banking infrastructure marketing website reconstruction",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "research:capture": "tsx scripts/research/capture-all.ts",
+    "research:assets": "tsx scripts/extraction/acquire-assets.ts"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.0",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "axe-core": "^4.10.3",
+    "pixelmatch": "^6.0.0",
+    "playwright": "^1.52.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}
