@@ -80,6 +80,19 @@
   animation: docketo-marquee-left 26s linear infinite;
 }
 
+.playOverlayBtn {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .playCircle {
   position: relative;
   z-index: 2;

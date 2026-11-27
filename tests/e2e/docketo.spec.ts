@@ -38,12 +38,18 @@ test.describe("Docketo 34-route health, typography, and asset integrity", () => 
 
     const pageErrors: string[] = [];
     const consoleErrors: string[] = [];
-    page.on("pageerror", (err) => pageErrors.push(`${err.message}`));
+    let currentRoute = "/";
+    page.on("pageerror", (err) => pageErrors.push(`${currentRoute}: ${err.message}`));
     page.on("console", (msg) => {
-      if (msg.type() === "error") consoleErrors.push(msg.text());
+      if (msg.type() === "error") {
+        const text = msg.text();
+        if (currentRoute === "/404" && text.includes("404 (Not Found)")) return;
+        consoleErrors.push(`${currentRoute}: ${text}`);
+      }
     });
 
     for (const route of ALL_34_ROUTES) {
+      currentRoute = route;
       const response = await page.goto(route, { waitUntil: "domcontentloaded" });
       const status = response?.status();
       if (route === "/404") {
@@ -139,26 +145,30 @@ test.describe("Interactive workflows and visual transitions", () => {
     await expect(dialog).toBeHidden();
 
     // 4. Solution tabs switch content (all 4 tabs)
-    const fintechTab = page.getByRole("tab", { name: "Fintechs" });
-    await fintechTab.scrollIntoViewIfNeeded();
-    await fintechTab.click();
-    await expect(page.getByRole("heading", { name: "Scale faster without banking complexity" })).toBeVisible();
+    const wealthTab = page.getByRole("tab", { name: "Wealth and savings apps" });
+    await wealthTab.scrollIntoViewIfNeeded();
+    await wealthTab.click();
+    await expect(
+      page.getByRole("heading", { name: "Streamline reconciliation and strengthen retention in one move." })
+    ).toBeVisible();
 
-    await page.getByRole("tab", { name: "Platforms & Marketplaces" }).click();
-    await expect(page.getByRole("heading", { name: "Power seamless payouts and account flows" })).toBeVisible();
+    await page.getByRole("tab", { name: "Lending" }).click();
+    await expect(page.getByRole("heading", { name: "One infrastructure, endless payment possibilities." })).toBeVisible();
 
-    await page.getByRole("tab", { name: "Global Businesses" }).click();
-    await expect(page.getByRole("heading", { name: "Expand into new markets with local accounts" })).toBeVisible();
+    await page.getByRole("tab", { name: "Proptech solutions" }).click();
+    await expect(
+      page.getByRole("heading", { name: "Set your clients up for success with dedicated, compliant accounts." })
+    ).toBeVisible();
 
     // 5. Testimonial carousel switches across all 3 slides
     await page.getByRole("button", { name: "Next testimonial" }).click();
-    await expect(page.getByText("Elena Vance")).toBeVisible();
+    await expect(page.getByText("Priya Anand")).toBeVisible();
     await page.getByRole("button", { name: "Next testimonial" }).click();
-    await expect(page.getByText("David Okafor")).toBeVisible();
+    await expect(page.getByText("David Chen")).toBeVisible();
 
     // 6. Customer stories switcher
-    await page.getByRole("tab", { name: "Show ClearLedger story" }).click();
-    await expect(page.getByRole("button", { name: "Play ClearLedger customer story video" })).toBeVisible();
+    await page.getByRole("tab", { name: "Show RettsPay story" }).click();
+    await expect(page.getByRole("button", { name: "Play RettsPay customer story video" })).toBeVisible();
 
     // 7. Shared FAQ expand/collapse
     const firstFaq = page.getByRole("button", { name: /What is embedded banking/i });
