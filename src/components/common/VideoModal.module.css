@@ -1,0 +1,71 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background-color: rgba(16, 15, 13, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.dialog {
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-neutral-dark);
+  border-radius: var(--card-radius-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-neutral-dark);
+}
+
+.modalTitle {
+  color: var(--color-white);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.closeBtn {
+  background: var(--color-white);
+  color: var(--color-black);
+  border: 0;
+  border-radius: var(--button-radius);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.frameWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.fallbackBar {
+  padding: 0.625rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid var(--color-neutral-dark);
+}
+
+.externalLink {
+  font-size: 0.8125rem;
+  color: var(--color-neutral-light);
+  text-decoration: underline;
+}

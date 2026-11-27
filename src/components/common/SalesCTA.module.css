@@ -1,0 +1,23 @@
+.section {
+  background-color: var(--color-black);
+  background-image: url("/assets/cta/6aa13ce299b954d32aee2d39_CTA_BG.webp");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 100%;
+  max-width: 930px;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.25rem, 1.875vw, 1.875rem);
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}

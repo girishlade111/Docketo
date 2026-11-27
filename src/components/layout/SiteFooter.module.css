@@ -1,0 +1,153 @@
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-text-inverse-soft);
+  padding-top: clamp(3rem, 5.5vw, 5.5rem);
+  overflow: hidden;
+}
+
+.topArea {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.brandCol {
+  flex-shrink: 0;
+}
+
+.logoLink {
+  display: inline-block;
+}
+
+.footerLogo {
+  width: 150px;
+  height: auto;
+}
+
+.rightArea {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.75vw, 3.75rem);
+  flex: 1;
+}
+
+.columnsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.25rem 1.5rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.groupTitle {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: var(--color-neutral-dark);
+  letter-spacing: 0.01em;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.footerLink {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: var(--color-text-inverse-soft);
+  text-decoration: none;
+  transition: color var(--motion-fast) ease, transform var(--motion-fast) ease;
+  display: inline-block;
+}
+
+.footerLink:hover {
+  color: var(--color-white);
+  transform: translateX(2px);
+}
+
+.bottomBar {
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-divider-footer);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.copyText {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #6b6861;
+}
+
+.attrLink {
+  color: #8f8b82;
+  text-decoration: none;
+}
+
+.attrLink:hover {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+.oversizedWrap {
+  position: relative;
+  margin-top: clamp(2rem, 4vw, 4rem);
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.oversizedLogo {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.14;
+  user-select: none;
+  pointer-events: none;
+}
+
+.oversizedFade {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 55%;
+  background: linear-gradient(to bottom, transparent, var(--color-black));
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .columnsGrid {
+    grid-template-columns: repeat(4, minmax(0, auto));
+    gap: 2.5rem 4vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .topArea {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+  .rightArea {
+    max-width: 62%;
+  }
+  .columnsGrid {
+    grid-template-columns: 1fr auto auto 1fr;
+    gap: 2rem 6.5vw;
+  }
+  .footerLogo {
+    width: 186px;
+  }
+}
