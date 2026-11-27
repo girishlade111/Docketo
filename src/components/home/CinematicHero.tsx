@@ -54,8 +54,8 @@ export function CinematicHero() {
 
   // Interpolate hero card dimensions smoothly on desktop as user scrolls through hero
   const cardWidthPct = 100 - progress * 54; // 100vw -> 46vw
-  const cardHeightVh = 100 - progress * 56; // 100vh -> 44vh
-  const topOffsetVh = progress * 25; // 0vh -> 25vh
+  const cardHeightVh = 100 - progress * 58; // 100vh -> 42vh
+  const topOffsetVh = progress * 31; // 0vh -> 31vh (clears 2-line revealed H1 cleanly)
   const desktopBrandOpacity = Math.max(0, 1 - progress * 2.4);
   const smallDemoOpacity = Math.max(0, Math.min(1, (progress - 0.35) * 2.2));
 
