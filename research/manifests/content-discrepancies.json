@@ -1,0 +1,98 @@
+[
+  {
+    "id": "disc-01",
+    "topic": "Docket vs Docketo naming",
+    "severity": "medium",
+    "notes": "Footer copyright and several articles/CTAs use 'Docket' while logo and title use 'Docketo'."
+  },
+  {
+    "id": "disc-02",
+    "topic": "Licenses page font text vs links",
+    "severity": "low",
+    "notes": "/licenses text mentions General Sans and Clash Grotesk, while actual font links and CSS load General Sans and Amethysta."
+  },
+  {
+    "id": "disc-03",
+    "topic": "Style guide white label",
+    "severity": "low",
+    "notes": "/style-guide prints 'FFFFF' (5 chars) instead of 'FFFFFF'."
+  },
+  {
+    "id": "disc-04",
+    "topic": "Green swatch token",
+    "severity": "medium",
+    "notes": "/style-guide label says '86EDA5/Green' while computed CSS --_color-system---brand--brand-primary is #7cf584."
+  },
+  {
+    "id": "disc-05",
+    "topic": "Growth pricing surface",
+    "severity": "low",
+    "notes": "Growth card uses #dbd9d1 which is component-specific, not in style guide swatches."
+  },
+  {
+    "id": "disc-06",
+    "topic": "FAQ Griffin compliance notes",
+    "severity": "high",
+    "notes": "FAQ answers 2 and 4 contain draft editorial notes referencing Griffin compliance team and documentation."
+  },
+  {
+    "id": "disc-07",
+    "topic": "Eligibility Griffin reference",
+    "severity": "high",
+    "notes": "/eligibility closing paragraph mentions applying to work with Griffin."
+  },
+  {
+    "id": "disc-08",
+    "topic": "Placeholder legal entities",
+    "severity": "high",
+    "notes": "/privacy and /terms-conditions contain [Legal Entity Name], [Country], [Number], [Address] placeholders."
+  },
+  {
+    "id": "disc-09",
+    "topic": "Cookies repeated heading",
+    "severity": "low",
+    "notes": "/cookies repeats 'Marketing cookies' subheading twice."
+  },
+  {
+    "id": "disc-10",
+    "topic": "Repeated article excerpt",
+    "severity": "medium",
+    "notes": "Posts 2-9 repeat the reconciliation intro excerpt from post 1 in their hero area."
+  },
+  {
+    "id": "disc-11",
+    "topic": "FSCS currency mismatch",
+    "severity": "medium",
+    "notes": "Post 8 title says '$120,000 FSCS limit' while body and pricing use '£120,000'."
+  },
+  {
+    "id": "disc-12",
+    "topic": "Verify marquee text",
+    "severity": "medium",
+    "notes": "/verify hero marquee repeats 'Safeguard customer money and earn on it'."
+  },
+  {
+    "id": "disc-13",
+    "topic": "About internal draft fragment",
+    "severity": "medium",
+    "notes": "/about Who we are includes '(Short) Automate compliance...' editorial fragment."
+  },
+  {
+    "id": "disc-14",
+    "topic": "Careers location mismatch",
+    "severity": "medium",
+    "notes": "Benefits mention SF and NY office lunch while roles and hiring list UK, Germany, Ireland, Sweden."
+  },
+  {
+    "id": "disc-15",
+    "topic": "David Chen testimonial roles",
+    "severity": "low",
+    "notes": "Home testimonial lists David Chen as COO of Meridian Wealth; About quote lists Founder & CEO of Northwind."
+  },
+  {
+    "id": "disc-16",
+    "topic": "Africhange note",
+    "severity": "high",
+    "notes": "Post 7 contains internal editorial note to confirm Africhange-Docket partnership details."
+  }
+]

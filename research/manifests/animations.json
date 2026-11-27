@@ -1,0 +1,95 @@
+[
+  {
+    "id": "anim-hero-pin",
+    "name": "Homepage hero shrink-to-video scroll",
+    "referenceRoutes": [
+      "/"
+    ],
+    "technology": "CSS sticky + GSAP ScrollTrigger",
+    "trigger": "scroll",
+    "pin": false,
+    "measurementConfidence": "BROWSER-MEASURED"
+  },
+  {
+    "id": "anim-marquee-logos",
+    "name": "Continuous horizontal logo marquee",
+    "referenceRoutes": [
+      "/",
+      "/contact",
+      "/safeguarding",
+      "/savings-accounts",
+      "/client-money",
+      "/verify"
+    ],
+    "technology": "CSS keyframes translateX",
+    "trigger": "continuous",
+    "measurementConfidence": "VERIFIED"
+  },
+  {
+    "id": "anim-infra-stack",
+    "name": "4-panel sticky stacking and subtle scale",
+    "referenceRoutes": [
+      "/"
+    ],
+    "technology": "position: sticky + GSAP ScrollTrigger scale(1 -> 0.90)",
+    "trigger": "scroll",
+    "measurementConfidence": "BROWSER-MEASURED"
+  },
+  {
+    "id": "anim-solutions-tabs",
+    "name": "Solution tab switching",
+    "referenceRoutes": [
+      "/"
+    ],
+    "technology": "React state + opacity transition",
+    "trigger": "click",
+    "durationMs": 300,
+    "measurementConfidence": "VERIFIED"
+  },
+  {
+    "id": "anim-testimonial-carousel",
+    "name": "Testimonial slide switcher",
+    "referenceRoutes": [
+      "/",
+      "/pricing"
+    ],
+    "technology": "React state + progress bar",
+    "trigger": "click",
+    "durationMs": 500,
+    "measurementConfidence": "VERIFIED"
+  },
+  {
+    "id": "anim-about-logo-overlay",
+    "name": "About client logo tile overlay reveal",
+    "referenceRoutes": [
+      "/about"
+    ],
+    "technology": "CSS transform translateY on hover/scroll",
+    "trigger": "hover",
+    "measurementConfidence": "VERIFIED"
+  },
+  {
+    "id": "anim-faq-accordion",
+    "name": "FAQ expand/collapse",
+    "referenceRoutes": [
+      "/",
+      "/pricing",
+      "/embedded-bank",
+      "/business-bank"
+    ],
+    "technology": "CSS grid-template-rows / max-height transition",
+    "trigger": "click",
+    "measurementConfidence": "VERIFIED"
+  },
+  {
+    "id": "anim-button-roll",
+    "name": "Button text vertical roll hover",
+    "referenceRoutes": [
+      "*"
+    ],
+    "technology": "CSS text-shadow + transform",
+    "trigger": "hover",
+    "durationMs": 250,
+    "measurementConfidence": "VERIFIED"
+  }
+]

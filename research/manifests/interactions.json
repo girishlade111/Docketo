@@ -1,0 +1,65 @@
+[
+  {
+    "component": "MarketingHeader",
+    "trigger": "Hover or Click Products / pages",
+    "action": "Opens dropdown menu",
+    "keyboard": "Tab, Enter/Space, Escape",
+    "status": "PLANNED"
+  },
+  {
+    "component": "MobileNavigation",
+    "trigger": "Click Menu button (<992px)",
+    "action": "Opens mobile drawer with Products & pages accordions",
+    "keyboard": "Escape closes",
+    "status": "PLANNED"
+  },
+  {
+    "component": "VideoModal",
+    "trigger": "Click Watch the video / Play Demo / Product hero play",
+    "action": "Opens accessible YouTube embed dialog",
+    "keyboard": "Escape closes, focus return",
+    "status": "PLANNED"
+  },
+  {
+    "component": "SolutionTabs",
+    "trigger": "Click any of 4 solution tabs",
+    "action": "Switches active heading, bullets, and composite illustration",
+    "keyboard": "ArrowLeft/ArrowRight/Tab",
+    "status": "PLANNED"
+  },
+  {
+    "component": "TestimonialCarousel",
+    "trigger": "Click Prev/Next or indicator line",
+    "action": "Transitions between 3 testimonials",
+    "keyboard": "Button activation",
+    "status": "PLANNED"
+  },
+  {
+    "component": "CustomerStoryCarousel",
+    "trigger": "Click Prev/Next or story play",
+    "action": "Cycles 3 stories and opens video modal",
+    "keyboard": "Button activation",
+    "status": "PLANNED"
+  },
+  {
+    "component": "Accordion (FAQ)",
+    "trigger": "Click question strip",
+    "action": "Toggles answer panel with aria-expanded",
+    "keyboard": "Enter/Space",
+    "status": "PLANNED"
+  },
+  {
+    "component": "ContactForm",
+    "trigger": "Submit form",
+    "action": "Client + Zod server validation via POST /api/contact",
+    "keyboard": "Standard form submit",
+    "status": "PLANNED"
+  },
+  {
+    "component": "ProtectedPage (/401)",
+    "trigger": "Submit password",
+    "action": "Local demonstration password check (no credential transmission)",
+    "keyboard": "Standard form submit",
+    "status": "PLANNED"
+  }
+]

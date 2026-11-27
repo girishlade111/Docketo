@@ -1,0 +1,66 @@
+[
+  {
+    "sourceRoute": "/",
+    "visibleLabel": "Try for Free",
+    "rawHref": "/pricing",
+    "expectedSemanticDestination": "/contact or /pricing",
+    "observedActualDestination": "/pricing",
+    "proposedProductionBehavior": "/pricing (configurable in src/config/site.ts)"
+  },
+  {
+    "sourceRoute": "/",
+    "visibleLabel": "Contact Sales",
+    "rawHref": "/pricing",
+    "expectedSemanticDestination": "/contact",
+    "observedActualDestination": "/pricing",
+    "proposedProductionBehavior": "/contact in production mode, /pricing in reference mode"
+  },
+  {
+    "sourceRoute": "/about",
+    "visibleLabel": "Explore Open Roles",
+    "rawHref": "/eligibility",
+    "expectedSemanticDestination": "/careers",
+    "observedActualDestination": "/eligibility",
+    "proposedProductionBehavior": "/careers in production mode"
+  },
+  {
+    "sourceRoute": "/careers",
+    "visibleLabel": "Explore Open Roles",
+    "rawHref": "/eligibility",
+    "expectedSemanticDestination": "#open-roles or /careers#open-roles",
+    "observedActualDestination": "/eligibility",
+    "proposedProductionBehavior": "#open-roles anchor in production mode"
+  },
+  {
+    "sourceRoute": "/careers",
+    "visibleLabel": "Apply Now",
+    "rawHref": "https://www.linkfilm.ai/...",
+    "expectedSemanticDestination": "/contact or dedicated ATS",
+    "observedActualDestination": "linkfilm.ai",
+    "proposedProductionBehavior": "/contact?role=... in production mode"
+  },
+  {
+    "sourceRoute": "/privacy",
+    "visibleLabel": "Download PDF",
+    "rawHref": "#",
+    "expectedSemanticDestination": "PDF download",
+    "observedActualDestination": "Self HTML page",
+    "proposedProductionBehavior": "Client print/PDF export or disabled unavailable notice"
+  },
+  {
+    "sourceRoute": "/terms-conditions",
+    "visibleLabel": "Download PDF",
+    "rawHref": "#",
+    "expectedSemanticDestination": "PDF download",
+    "observedActualDestination": "Self HTML page",
+    "proposedProductionBehavior": "Client print/PDF export or disabled unavailable notice"
+  },
+  {
+    "sourceRoute": "/embedded-bank",
+    "visibleLabel": "Deposit protection -> Learn More",
+    "rawHref": "/business-bank",
+    "expectedSemanticDestination": "/eligibility or deposit protection documentation",
+    "observedActualDestination": "/business-bank",
+    "proposedProductionBehavior": "Configurable via src/config/site.ts"
+  }
+]
