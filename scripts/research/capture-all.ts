@@ -46,17 +46,16 @@ async function inspectTextAndCheckMeta(url: string) {
 }
 
 async function autoScroll(page: Page) {
-  await page.evaluate(async () => {
-    const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
-    const total = document.body.scrollHeight;
-    const step = Math.max(400, Math.floor(window.innerHeight * 0.8));
-    for (let y = 0; y <= total; y += step) {
-      window.scrollTo(0, y);
-      await delay(120);
-    }
-    window.scrollTo(0, 0);
-    await delay(200);
-  });
+  const { total, step } = await page.evaluate(() => ({
+    total: document.body.scrollHeight,
+    step: Math.max(400, Math.floor(window.innerHeight * 0.85)),
+  }));
+  for (let y = 0; y <= total; y += step) {
+    await page.evaluate((pos) => window.scrollTo(0, pos), y);
+    await page.waitForTimeout(100);
+  }
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForTimeout(200);
 }
 
 async function extractPageDetails(page: Page, routeId: string, routePath: string) {
@@ -272,6 +271,7 @@ async function main() {
     locale: "en-US",
     timezoneId: "UTC",
   });
+  await context.addInitScript("window.__name = window.__name || function(t){ return t; };");
 
   const networkAssets = new Map<string, Record<string, unknown>>();
   const routeResults: Array<Record<string, unknown>> = [];
@@ -592,6 +592,7 @@ async function main() {
     isMobile: true,
     hasTouch: true,
   });
+  await mobileContext.addInitScript("window.__name = window.__name || function(t){ return t; };");
   const mPage = await mobileContext.newPage();
   for (const rPath of [
     { id: "home", path: "/" },
