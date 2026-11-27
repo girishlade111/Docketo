@@ -46,12 +46,7 @@ export function ProductPageView({ config }: ProductPageViewProps) {
                 </div>
               </div>
 
-              <button
-                type="button"
-                className={styles.heroBannerBtn}
-                onClick={() => setVideoOpen(true)}
-                aria-label={`Play ${config.heroTitle} video`}
-              >
+              <div className={styles.heroBannerBtn}>
                 <img src={config.heroImage} alt="" className={styles.heroBannerImg} />
                 <div className={styles.heroBannerDim} />
                 <div className={styles.marqueeOverlay} aria-hidden="true">
@@ -62,10 +57,17 @@ export function ProductPageView({ config }: ProductPageViewProps) {
                     <span>{config.marqueeText}</span>
                   </div>
                 </div>
-                <span className={styles.playCircle}>
-                  <img src={PRODUCT_HERO_PLAY_ICON} alt="" width={28} height={28} />
-                </span>
-              </button>
+                <button
+                  type="button"
+                  className={styles.playOverlayBtn}
+                  onClick={() => setVideoOpen(true)}
+                  aria-label={`Play ${config.heroTitle} video`}
+                >
+                  <span className={styles.playCircle}>
+                    <img src={PRODUCT_HERO_PLAY_ICON} alt="" width={28} height={28} />
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@
 # Test info
 
 - Name: docketo.spec.ts >> Axe WCAG accessibility audits across key routes >> zero critical or serious WCAG violations on /embedded-bank
-- Location: tests\e2e\docketo.spec.ts:228:5
+- Location: tests\e2e\docketo.spec.ts:233:5
 
 # Error details
 
@@ -16,32 +16,16 @@ Error: WCAG serious/critical violations on /embedded-bank
 
 expect(received).toEqual(expected) // deep equality
 
-- Expected  -  1
-+ Received  + 25
+- Expected  - 1
++ Received  + 9
 
 - Array []
 + Array [
-+   Object {
-+     "id": "color-contrast",
-+     "impact": "serious",
-+     "nodes": Array [
-+       "<div class=\"SiteFooter_groupTitle__n_pSG\">Product</div>",
-+       "<div class=\"SiteFooter_groupTitle__n_pSG\">Explore</div>",
-+       "<div class=\"SiteFooter_groupTitle__n_pSG\">Policies</div>",
-+     ],
-+   },
 +   Object {
 +     "id": "label-content-name-mismatch",
 +     "impact": "serious",
 +     "nodes": Array [
 +       "<button type=\"button\" class=\"ProductPageView_heroBannerBtn__1mPZR\" aria-label=\"Play Bank accounts to power any product video\">",
-+     ],
-+   },
-+   Object {
-+     "id": "link-in-text-block",
-+     "impact": "serious",
-+     "nodes": Array [
-+       "<a href=\"https://webocean.io/\" target=\"_blank\" rel=\"noreferrer\" class=\"SiteFooter_attrLink__fBmPV\">webocean</a>",
 +     ],
 +   },
 + ]
@@ -245,110 +229,110 @@ expect(received).toEqual(expected) // deep equality
 # Test source
 
 ```ts
-  148 |     // 5. Testimonial carousel switches across all 3 slides
-  149 |     await page.getByRole("button", { name: "Next testimonial" }).click();
-  150 |     await expect(page.getByText("Elena Vance")).toBeVisible();
-  151 |     await page.getByRole("button", { name: "Next testimonial" }).click();
-  152 |     await expect(page.getByText("David Okafor")).toBeVisible();
-  153 | 
-  154 |     // 6. Customer stories switcher
-  155 |     await page.getByRole("tab", { name: "Show ClearLedger story" }).click();
-  156 |     await expect(page.getByRole("button", { name: "Play ClearLedger customer story video" })).toBeVisible();
-  157 | 
-  158 |     // 7. Shared FAQ expand/collapse
-  159 |     const firstFaq = page.getByRole("button", { name: /What is embedded banking/i });
-  160 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "false");
-  161 |     await firstFaq.click();
-  162 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "true");
-  163 |     await firstFaq.click();
-  164 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "false");
-  165 |   });
-  166 | 
-  167 |   test("mobile navigation opens drawer and product submenu at 390px", async ({ page }) => {
-  168 |     await page.setViewportSize({ width: 390, height: 844 });
-  169 |     await page.goto("/", { waitUntil: "domcontentloaded" });
-  170 |     const menuBtn = page.getByRole("button", { name: /menu/i });
-  171 |     await menuBtn.click();
-  172 |     await expect(page.getByRole("link", { name: "Book a Demo" }).last()).toBeVisible();
-  173 |     await page.keyboard.press("Escape");
-  174 |   });
-  175 | 
-  176 |   test("news category filters match exact Webflow post counts [2, 3, 2, 2]", async ({ page }) => {
-  177 |     const expectations: Array<[string, number]> = [
-  178 |       ["/news", 9],
-  179 |       ["/post-categories/product", 2],
-  180 |       ["/post-categories/compliance", 3],
-  181 |       ["/post-categories/company", 2],
-  182 |       ["/post-categories/guides", 2],
-  183 |     ];
-  184 |     for (const [route, count] of expectations) {
-  185 |       await page.goto(route, { waitUntil: "domcontentloaded" });
-  186 |       await expect(page.locator("article")).toHaveCount(count);
-  187 |     }
-  188 |   });
-  189 | 
-  190 |   test("contact form validates empty submit and records valid demonstration submission", async ({ page }) => {
-  191 |     await page.goto("/contact", { waitUntil: "domcontentloaded" });
-  192 |     await page.getByRole("button", { name: "Submit" }).click();
-  193 |     await expect(page.getByText(/First name is required/i)).toBeVisible();
+  153 |     // 5. Testimonial carousel switches across all 3 slides
+  154 |     await page.getByRole("button", { name: "Next testimonial" }).click();
+  155 |     await expect(page.getByText("Elena Vance")).toBeVisible();
+  156 |     await page.getByRole("button", { name: "Next testimonial" }).click();
+  157 |     await expect(page.getByText("David Okafor")).toBeVisible();
+  158 | 
+  159 |     // 6. Customer stories switcher
+  160 |     await page.getByRole("tab", { name: "Show ClearLedger story" }).click();
+  161 |     await expect(page.getByRole("button", { name: "Play ClearLedger customer story video" })).toBeVisible();
+  162 | 
+  163 |     // 7. Shared FAQ expand/collapse
+  164 |     const firstFaq = page.getByRole("button", { name: /What is embedded banking/i });
+  165 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "false");
+  166 |     await firstFaq.click();
+  167 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "true");
+  168 |     await firstFaq.click();
+  169 |     await expect(firstFaq).toHaveAttribute("aria-expanded", "false");
+  170 |   });
+  171 | 
+  172 |   test("mobile navigation opens drawer and product submenu at 390px", async ({ page }) => {
+  173 |     await page.setViewportSize({ width: 390, height: 844 });
+  174 |     await page.goto("/", { waitUntil: "domcontentloaded" });
+  175 |     const menuBtn = page.getByRole("button", { name: /menu/i });
+  176 |     await menuBtn.click();
+  177 |     await expect(page.getByRole("link", { name: "Book a Demo" }).last()).toBeVisible();
+  178 |     await page.keyboard.press("Escape");
+  179 |   });
+  180 | 
+  181 |   test("news category filters match exact Webflow post counts [2, 3, 2, 2]", async ({ page }) => {
+  182 |     const expectations: Array<[string, number]> = [
+  183 |       ["/news", 9],
+  184 |       ["/post-categories/product", 2],
+  185 |       ["/post-categories/compliance", 3],
+  186 |       ["/post-categories/company", 2],
+  187 |       ["/post-categories/guides", 2],
+  188 |     ];
+  189 |     for (const [route, count] of expectations) {
+  190 |       await page.goto(route, { waitUntil: "domcontentloaded" });
+  191 |       await expect(page.locator("article")).toHaveCount(count);
+  192 |     }
+  193 |   });
   194 | 
-  195 |     await page.getByLabel("First Name").fill("Alex");
-  196 |     await page.getByLabel("Last Name").fill("Mercer");
-  197 |     await page.getByLabel("Email").fill("alex@fintech-example.test");
-  198 |     await page.getByLabel("Company name").fill("Meridian Clearing");
-  199 |     await page.getByLabel("Your Message").fill("Interested in embedded safeguarding APIs.");
-  200 |     await page.getByRole("button", { name: "Submit" }).click();
-  201 |     await expect(page.getByText(/demonstration request has been validated locally/i)).toBeVisible();
-  202 |   });
-  203 | 
-  204 |   test("protected 401 page displays static template demonstration notice on submit", async ({ page }) => {
-  205 |     await page.goto("/401", { waitUntil: "domcontentloaded" });
-  206 |     await page.getByPlaceholder("Enter your password").fill("test-pass");
-  207 |     await page.getByRole("button", { name: "Submit Now" }).click();
-  208 |     await expect(page.getByText(/static template demonstration/i)).toBeVisible();
-  209 |   });
-  210 | });
-  211 | 
-  212 | test.describe("Axe WCAG accessibility audits across key routes", () => {
-  213 |   const a11yRoutes = [
-  214 |     "/",
-  215 |     "/about",
-  216 |     "/pricing",
-  217 |     "/contact",
-  218 |     "/careers",
-  219 |     "/embedded-bank",
-  220 |     "/news",
-  221 |     "/post/how-embedded-bank-accounts-simplify-payment-reconciliation",
-  222 |     "/privacy",
-  223 |     "/style-guide",
-  224 |     "/404",
-  225 |   ];
-  226 | 
-  227 |   for (const route of a11yRoutes) {
-  228 |     test(`zero critical or serious WCAG violations on ${route}`, async ({ page }) => {
-  229 |       await page.setViewportSize({ width: 1440, height: 900 });
-  230 |       await page.goto(route, { waitUntil: "networkidle" });
-  231 |       await page.evaluate(() => document.fonts.ready);
-  232 | 
-  233 |       const results = await new AxeBuilder({ page })
-  234 |         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
-  235 |         .analyze();
-  236 | 
-  237 |       const seriousOrCritical = results.violations.filter(
-  238 |         (v) => v.impact === "critical" || v.impact === "serious"
-  239 |       );
-  240 | 
-  241 |       expect(
-  242 |         seriousOrCritical.map((v) => ({
-  243 |           id: v.id,
-  244 |           impact: v.impact,
-  245 |           nodes: v.nodes.slice(0, 3).map((n) => n.html),
-  246 |         })),
-  247 |         `WCAG serious/critical violations on ${route}`
-> 248 |       ).toEqual([]);
+  195 |   test("contact form validates empty submit and records valid demonstration submission", async ({ page }) => {
+  196 |     await page.goto("/contact", { waitUntil: "domcontentloaded" });
+  197 |     await page.getByRole("button", { name: "Submit" }).click();
+  198 |     await expect(page.getByText(/First name is required/i)).toBeVisible();
+  199 | 
+  200 |     await page.getByLabel("First Name").fill("Alex");
+  201 |     await page.getByLabel("Last Name").fill("Mercer");
+  202 |     await page.getByLabel("Email").fill("alex@fintech-example.test");
+  203 |     await page.getByLabel("Company Name").fill("Meridian Clearing");
+  204 |     await page.getByLabel("Message").fill("Interested in embedded safeguarding APIs.");
+  205 |     await page.getByRole("button", { name: "Submit" }).click();
+  206 |     await expect(page.getByText(/demonstration request has been validated locally/i)).toBeVisible();
+  207 |   });
+  208 | 
+  209 |   test("protected 401 page displays static template demonstration notice on submit", async ({ page }) => {
+  210 |     await page.goto("/401", { waitUntil: "domcontentloaded" });
+  211 |     await page.getByPlaceholder("Enter your password").fill("test-pass");
+  212 |     await page.getByRole("button", { name: "Submit" }).click();
+  213 |     await expect(page.getByText(/template protected-page fixture/i)).toBeVisible();
+  214 |   });
+  215 | });
+  216 | 
+  217 | test.describe("Axe WCAG accessibility audits across key routes", () => {
+  218 |   const a11yRoutes = [
+  219 |     "/",
+  220 |     "/about",
+  221 |     "/pricing",
+  222 |     "/contact",
+  223 |     "/careers",
+  224 |     "/embedded-bank",
+  225 |     "/news",
+  226 |     "/post/how-embedded-bank-accounts-simplify-payment-reconciliation",
+  227 |     "/privacy",
+  228 |     "/style-guide",
+  229 |     "/404",
+  230 |   ];
+  231 | 
+  232 |   for (const route of a11yRoutes) {
+  233 |     test(`zero critical or serious WCAG violations on ${route}`, async ({ page }) => {
+  234 |       await page.setViewportSize({ width: 1440, height: 900 });
+  235 |       await page.goto(route, { waitUntil: "networkidle" });
+  236 |       await page.evaluate(() => document.fonts.ready);
+  237 | 
+  238 |       const results = await new AxeBuilder({ page })
+  239 |         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+  240 |         .analyze();
+  241 | 
+  242 |       const seriousOrCritical = results.violations.filter(
+  243 |         (v) => v.impact === "critical" || v.impact === "serious"
+  244 |       );
+  245 | 
+  246 |       expect(
+  247 |         seriousOrCritical.map((v) => ({
+  248 |           id: v.id,
+  249 |           impact: v.impact,
+  250 |           nodes: v.nodes.slice(0, 3).map((n) => n.html),
+  251 |         })),
+  252 |         `WCAG serious/critical violations on ${route}`
+> 253 |       ).toEqual([]);
       |         ^ Error: WCAG serious/critical violations on /embedded-bank
-  249 |     });
-  250 |   }
-  251 | });
-  252 | 
+  254 |     });
+  255 |   }
+  256 | });
+  257 | 
 ```
