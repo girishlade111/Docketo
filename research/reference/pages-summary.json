@@ -1,0 +1,2188 @@
+{
+  "401": {
+    "title": "Protected Page – Docketo",
+    "metaDesc": "This page is password protected. Enter your password to view the content.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/utilities/6a97e0888b7091a5fa9de269_Itam.webp",
+        "alt": "",
+        "w": 300,
+        "h": 157,
+        "rw": 300,
+        "rh": 157,
+        "cls": "pass-image"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nProtected Page\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "404": {
+    "title": "404 Page Not Found – Docketo",
+    "metaDesc": "The page you are looking for does not exist or has been moved. Return to the Docketo homepage.",
+    "imgs": [
+      {
+        "local": "/assets/utilities/6a97e0888b7091a5fa9de265_Frame.webp",
+        "alt": "",
+        "w": 447,
+        "h": 227,
+        "rw": 447,
+        "rh": 227,
+        "cls": "_404-image"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Sorry, this page can’t be found.\nBack To Home"
+  },
+  "home": {
+    "title": "Docketo - Webflow HTML website template",
+    "metaDesc": "Build and scale your fintech products with Docketo. Access embedded bank accounts, business accounts, safeguarding, and savings infrastructure using our secure API.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/hero/6aa255a39bbbfbc567027087_Hero.webp",
+        "alt": "",
+        "w": 1440,
+        "h": 1024,
+        "rw": 1440,
+        "rh": 900,
+        "cls": "hero-image"
+      },
+      {
+        "local": "/assets/brand/6ab0f0cb1031e9bd214b7669_Subtract.svg",
+        "alt": "Brand Logo",
+        "w": 79,
+        "h": 87,
+        "rw": 79,
+        "rh": 87,
+        "cls": "brand-logo"
+      },
+      {
+        "local": "/assets/hero/6aa26c8cc9fc07bcca2e4361_Vector.svg",
+        "alt": "Play Bttn",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "hero-button-icon"
+      },
+      {
+        "local": "/assets/misc/6aa254afb5d1ef6b91c15dab_Frame.svg",
+        "alt": "Brand Logo",
+        "w": 155,
+        "h": 20,
+        "rw": 155,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254b0c2220127b8a0698c_4.svg",
+        "alt": "Brand Logo",
+        "w": 101,
+        "h": 24,
+        "rw": 101,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254af3e29ca49be9a75e6_Logo.svg",
+        "alt": "Brand Logo",
+        "w": 130,
+        "h": 24,
+        "rw": 130,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254af69c5f06f46deb805_logotype.svg",
+        "alt": "Brand Logo",
+        "w": 77,
+        "h": 24,
+        "rw": 77,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254af3e29ca49be9a75dd_5.svg",
+        "alt": "Brand Logo",
+        "w": 140,
+        "h": 24,
+        "rw": 140,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254afb5d1ef6b91c15d84_2.svg",
+        "alt": "Brand Logo",
+        "w": 133,
+        "h": 24,
+        "rw": 133,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254affeeeb406526dfbab_3.svg",
+        "alt": "Brand Logo",
+        "w": 77,
+        "h": 24,
+        "rw": 77,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa254aff4068703fc2677ee_1.svg",
+        "alt": "Brand Logo",
+        "w": 131,
+        "h": 24,
+        "rw": 131,
+        "rh": 24,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/infrastructure/6aa286b4d8d1f5135772bcae_Fast_.svg",
+        "alt": "App Feature Image",
+        "w": 500,
+        "h": 289,
+        "rw": 500,
+        "rh": 289,
+        "cls": "app-feature-image"
+      },
+      {
+        "local": "/assets/infrastructure/6aa286b4d8d1f5135772bcb1_Second.svg",
+        "alt": "App Feature Image",
+        "w": 490,
+        "h": 287,
+        "rw": 490,
+        "rh": 287,
+        "cls": "app-feature-image"
+      },
+      {
+        "local": "/assets/infrastructure/6aa286b4767f6c66cb30e839_Third_.svg",
+        "alt": "App Feature Image",
+        "w": 472,
+        "h": 283,
+        "rw": 472,
+        "rh": 283,
+        "cls": "app-feature-image"
+      },
+      {
+        "local": "/assets/infrastructure/6aa286b30acd33240bf453ea_Four_.svg",
+        "alt": "App Feature Image",
+        "w": 613,
+        "h": 288,
+        "rw": 508,
+        "rh": 239,
+        "cls": "app-feature-image"
+      },
+      {
+        "local": "/assets/misc/6aa28b39b1aa1a3f15e47997_Rectangle_3.svg",
+        "alt": "Icon",
+        "w": 12,
+        "h": 12,
+        "rw": 12,
+        "rh": 12,
+        "cls": "icon"
+      },
+      {
+        "local": "/assets/misc/6aa28c4afaca763983043f94_01.webp",
+        "alt": "Our Solutions Image",
+        "w": 464,
+        "h": 444,
+        "rw": 399,
+        "rh": 382,
+        "cls": "our-solutions-image"
+      },
+      {
+        "local": "/assets/misc/6aa28c931fb171c307a5a51d_02.webp",
+        "alt": "Our Solutions Image",
+        "w": 0,
+        "h": 0,
+        "rw": 0,
+        "rh": 0,
+        "cls": "our-solutions-image"
+      },
+      {
+        "local": "/assets/misc/6aa28ce0220840992bed1040_03.webp",
+        "alt": "Our Solutions Image",
+        "w": 0,
+        "h": 0,
+        "rw": 0,
+        "rh": 0,
+        "cls": "our-solutions-image"
+      },
+      {
+        "local": "/assets/misc/6aa28bd293cb646794fa6791_06.webp",
+        "alt": "Our Solutions Image",
+        "w": 0,
+        "h": 0,
+        "rw": 0,
+        "rh": 0,
+        "cls": "our-solutions-image"
+      },
+      {
+        "local": "/assets/products/6aa28e767b983d21eae95e28_Our_products1.svg",
+        "alt": "Our products Icon",
+        "w": 21,
+        "h": 15,
+        "rw": 21,
+        "rh": 15,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/products/6aa28e762c30d80d8e50c61b_Our_products_arrow.svg",
+        "alt": "Our products Arrow",
+        "w": 24,
+        "h": 24,
+        "rw": 21,
+        "rh": 21,
+        "cls": "our-products-arrow"
+      },
+      {
+        "local": "/assets/products/6aa28e76d0394eab149c55e5_Our_products_2.svg",
+        "alt": "Our products Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/products/6aa28e7f3a611c20e8555e34_Our_products_3.svg",
+        "alt": "Our products Icon",
+        "w": 18,
+        "h": 16,
+        "rw": 18,
+        "rh": 16,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/products/6aa28e764335d2f1d673cdb1_Our_products_4.svg",
+        "alt": "Our products Icon",
+        "w": 23,
+        "h": 18,
+        "rw": 23,
+        "rh": 18,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/products/6aa28e76bd2b3406046ee7fd_Our_products5.svg",
+        "alt": "Our products Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/products/6aa28e803a611c20e8555e69_Our_products6.svg",
+        "alt": "Our products Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "our-products-icon"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda900758034b7333addf_Rectangle_16.webp",
+        "alt": "Review Image",
+        "w": 639,
+        "h": 773,
+        "rw": 426,
+        "rh": 517,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda902cc984feaa2cba89_Rectangle_17.webp",
+        "alt": "Review Image",
+        "w": 639,
+        "h": 773,
+        "rw": 426,
+        "rh": 515,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda905a39433fe60621c9_Rectangle_18.webp",
+        "alt": "Review Image",
+        "w": 0,
+        "h": 0,
+        "rw": 426,
+        "rh": 517,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fdc88983dc258ee9692e4_Vector.svg",
+        "alt": "Slider Arrow",
+        "w": 8,
+        "h": 14,
+        "rw": 8,
+        "rh": 14,
+        "cls": ""
+      },
+      {
+        "local": "/assets/testimonials/6a9fdc888fc86088ef8f6cbe_2.svg",
+        "alt": "Slider Arrow",
+        "w": 8,
+        "h": 14,
+        "rw": 8,
+        "rh": 14,
+        "cls": ""
+      },
+      {
+        "local": "/assets/misc/6aa290efab9b9e9386713cc4_0.svg",
+        "alt": "Icon",
+        "w": 29,
+        "h": 29,
+        "rw": 29,
+        "rh": 29,
+        "cls": "start-building-icon"
+      },
+      {
+        "local": "/assets/developer/6aa290efe2a810d6d71cac72_Start_Building_.webp",
+        "alt": "Code snippet showing an API request to create a payee with recipient name Sam Jenkins, including a curl command with POST method, content-type, authorization header, and a JSON payload with account-holder and bank-id details.",
+        "w": 340,
+        "h": 404,
+        "rw": 302,
+        "rh": 359,
+        "cls": "start-building-image"
+      },
+      {
+        "local": "/assets/misc/6aa4d461125e7d701f6632b8_1.webp",
+        "alt": "Real Impact Slide Image",
+        "w": 1439,
+        "h": 813,
+        "rw": 900,
+        "rh": 540,
+        "cls": "real-impact-slide-image"
+      },
+      {
+        "local": "/assets/misc/6aa4d11a9365cab3f810b390_Vector.svg",
+        "alt": "Play ICon",
+        "w": 16,
+        "h": 18,
+        "rw": 16,
+        "rh": 18,
+        "cls": ""
+      },
+      {
+        "local": "/assets/misc/6aa4d462dd74f803af3e3724_61f0c8cc5a3c7c2016543a0cc1d63df4_0.webp",
+        "alt": "Real Impact Slide Image",
+        "w": 1439,
+        "h": 813,
+        "rw": 900,
+        "rh": 540,
+        "cls": "real-impact-slide-image"
+      },
+      {
+        "local": "/assets/misc/6aa4d600117cf2fc8cea8a2a_wehite_2.svg",
+        "alt": "Logo",
+        "w": 131,
+        "h": 24,
+        "rw": 131,
+        "rh": 24,
+        "cls": "impact-barnd-logo"
+      },
+      {
+        "local": "/assets/misc/6aa4d60067c9f6de9833e693_whte_02.svg",
+        "alt": "Logo",
+        "w": 130,
+        "h": 24,
+        "rw": 130,
+        "rh": 24,
+        "cls": "impact-barnd-logo"
+      },
+      {
+        "local": "/assets/misc/6aa4d60074020678a589c723_white_02.svg",
+        "alt": "Logo",
+        "w": 98,
+        "h": 24,
+        "rw": 98,
+        "rh": 24,
+        "cls": "impact-barnd-logo"
+      },
+      {
+        "local": "/assets/brand/6a9fe1572a8174be32f150f5_Subtract.svg",
+        "alt": "FAQ Icon",
+        "w": 19,
+        "h": 20,
+        "rw": 19,
+        "rh": 20,
+        "cls": "faq-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "hero-bottom-bg",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa253a078f9d850e8aeee3c_image%202.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "app-features-card",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa286b40acd33240bf4541d_BG%03.svg\")",
+        "backgroundColor": "rgb(16, 15, 13)"
+      },
+      {
+        "selector": "div",
+        "className": "app-features-card",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa286b40acd33240bf4541d_BG%03.svg\")",
+        "backgroundColor": "rgb(16, 15, 13)"
+      },
+      {
+        "selector": "div",
+        "className": "app-features-card",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa286b40acd33240bf4541d_BG%03.svg\")",
+        "backgroundColor": "rgb(16, 15, 13)"
+      },
+      {
+        "selector": "div",
+        "className": "app-features-card",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa286b40acd33240bf4541d_BG%03.svg\")",
+        "backgroundColor": "rgb(16, 15, 13)"
+      },
+      {
+        "selector": "div",
+        "className": "our-solutions-image-wrap fast-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28c4b26723c02fcb78a45_1st.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "our-solutions-image-wrap second-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28c93d255b280f126199b_2.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "our-solutions-image-wrap third-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28ce0912008c55faa6a5c_3.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "our-solutions-image-wrap fourth-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa28bf54380b28027a006cd_Ss%204.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "start-building-image-wrap",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa290efa8a0a42387646a1d_Start%20Building%20bg.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nBanking for what you're building\nDocketo\nBanking for what you're building\nWatch the video\nTry for Free\nReady to see how it works?\nPlay Demo\nYOUR APP\nDifferentiate\nBanking built into your app. Customers built into your business.\nYOUR TECH\nIntegrate\nBuild your tech on top of our platform with a simple API.\nOUR PLATFORM\nPower\nPower your offering with best-in-class banking infrastructure.\nOUR BANK LICENSE\nSecure\nProtect your customer's money with our regulatory cover.\nDesigned to help you build\nPayment platforms\nWealth and savings apps\nLending\nProptech solutions\nHandle repayments, reporting, and compliance in one place.\nEarn interest or commission\nOpen new accounts instantly\nOwn your customer experience\nOur products\nEmbedded bank accounts\nBank accounts to power any product\nSafeguarding accounts\nRingfenced accounts for EMIs and PIs\nBusiness bank accounts\nYour own operational account, access via API or our app\nSavings accounts\nInterest-bearing accounts for your customers\nClient money accounts\nCASS and CMP compliant accounts\nVerify\nAutomated customer onboarding and KYC\n“We embedded banking directly into our product and finally own the customer relationship end to end. Retention is up and our team spends far less time on back-office headaches.”\nSarah Mitchell\nFounder & CEO, Loop Payments\nStart coding today\nPurpose-built API\nUsing clean JSON over REST\nClear documentation\nComprehensive API reference and guides\nImmutable architecture\nCore banking system based on a durable event log\nCloud native\nBuilt on scalable, resilient infrastructure\nFree sandbox\nStart testing right away‍—‌no fees, no sales pitch, no NDAs\nHow Docket client money accounts helped RettsPay meet compliance\nHow Prosper removed payment complexity with Docket embedded bank accounts\nHow Docket client money accounts helped RettsPay meet compliance\nAfrichange broadens its offering with UK bank accounts, powered by Docketo\n123\nFrequently Asked Questions (FAQ)\nWhat is embedded banking, and how does it work?\nEmbedded banking lets you offer bank accounts, payments, and other financial services directly inside your own product — no need to send customers to a separate provider. You connect to our platform through a simple API, and we handle the underlying banking infrastructure while you keep full ownership of the customer relationship.\nDo I need my own banking license to build with Docket?\nNo. Because we hold the necessary regulatory permissions, you can offer banking and payment services under our infrastructure without obtaining your own license. This lets you launch faster and stay compliant from day one. [Confirm exact regulatory wording with Griffin's compliance team.]\nHow quickly can I integrate and go live?\nIntegration timelines depend on your use case, but our API is built to be developer-friendly with clear documentation, so many teams move from testing to launch in a matter of weeks rather than months.\nHow do client money and safeguarding accounts keep funds protected?\nClient money and safeguarding accounts keep your customers' funds separate from your operating capital, in line with regulatory requirements. This protects those funds and simplifies your reporting, reconciliation, and compliance obligations. [Verify specifics against Griffin's safeguarding documentation.]\nWhat kinds of businesses use Docket?\nOur platform supports a wide range of use cases — from lenders and payment providers to wealth managers, fintechs, and platforms building new financial products. If you want to embed accounts, payments, or compliant money management into your offering, it's likely a fit.\nHow does Docket help with reconciliation and compliance?\nOur embedded accounts are designed to reduce manual work by streamlining reconciliation and automating much of the reporting and compliance that typically slows teams down — so you can focus on your product instead of back-office admin.\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "about": {
+    "title": "About Docketo – Empowering Fintech with API-Driven Banking",
+    "metaDesc": "Learn about Docketo’s mission to simplify financial infrastructure. We provide secure, regulatory-compliant banking solutions for tech companies and modern platforms.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe3182a8174be32f2ce23_Carer_.webp",
+        "alt": "About Header Image ",
+        "w": 1050,
+        "h": 600,
+        "rw": 900,
+        "rh": 588,
+        "cls": "about-header-image"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe3182a8174be32f2ce35_LinkFilm-Image__11_1.webp",
+        "alt": "About Header Image",
+        "w": 1062,
+        "h": 600,
+        "rw": 900,
+        "rh": 588,
+        "cls": "about-header-image"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe31841d07c1bd72742b2_LinkFilm-Image__12_1.webp",
+        "alt": "About Header Image ",
+        "w": 1050,
+        "h": 600,
+        "rw": 900,
+        "rh": 588,
+        "cls": "about-header-image"
+      },
+      {
+        "local": "/assets/misc/6aa1291d3eaebf951a1c03d7_1.svg",
+        "alt": "Brand Logo",
+        "w": 189,
+        "h": 35,
+        "rw": 189,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa1291df810c0e6c9cb9000_02.svg",
+        "alt": "Brand Logo",
+        "w": 265,
+        "h": 35,
+        "rw": 265,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa1291d5279d67d53ca2272_03.svg",
+        "alt": "Brand Logo",
+        "w": 191,
+        "h": 35,
+        "rw": 191,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa1291db8aca1654c7a6b60_04.svg",
+        "alt": "Brand Logo",
+        "w": 194,
+        "h": 35,
+        "rw": 194,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a9fe81734447b477d4d3f5d_Group_180.webp",
+        "alt": "Brand Bg",
+        "w": 705,
+        "h": 410,
+        "rw": 432,
+        "rh": 260,
+        "cls": "aword-image"
+      },
+      {
+        "local": "/assets/misc/6aa1291dc4ea9b87d2beb207_05.svg",
+        "alt": "Brand Logo",
+        "w": 204,
+        "h": 35,
+        "rw": 204,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de25f_6.webp",
+        "alt": "Brand Bg",
+        "w": 705,
+        "h": 498,
+        "rw": 432,
+        "rh": 260,
+        "cls": "aword-image"
+      },
+      {
+        "local": "/assets/misc/6aa1291dd880447d916b7740_06.svg",
+        "alt": "Brand Logo",
+        "w": 95,
+        "h": 35,
+        "rw": 95,
+        "rh": 35,
+        "cls": "aword-brand-logo"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba43272f0bdc3381d68_Team_1.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba48d7c2b18e45594b9_team_02.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba4102fa7661edc41bc_team_03.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba4f810c0e6c9cdaaa8_team_04.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba4b8aca1654c7c9b4f_team_05.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa12ba444bfba1a96ab80f6_team_06.webp",
+        "alt": "Team Image ",
+        "w": 705,
+        "h": 774,
+        "rw": 432,
+        "rh": 474,
+        "cls": "leadership-image"
+      },
+      {
+        "local": "/assets/articles/6ad2fdd5ddd63f5869745221_2.png",
+        "alt": "News Image ",
+        "w": 1440,
+        "h": 907,
+        "rw": 432,
+        "rh": 272,
+        "cls": "news-image"
+      },
+      {
+        "local": "/assets/articles/6ad2fddf2c01025898197b57_3.png",
+        "alt": "News Image ",
+        "w": 1440,
+        "h": 907,
+        "rw": 432,
+        "rh": 272,
+        "cls": "news-image"
+      },
+      {
+        "local": "/assets/articles/6ad2fdeb82d9108ae356721c_4.png",
+        "alt": "News Image ",
+        "w": 1440,
+        "h": 907,
+        "rw": 432,
+        "rh": 272,
+        "cls": "news-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa134a662337786c352cf7d_Rectangle_51.webp",
+        "alt": "Join Our Team Image",
+        "w": 843,
+        "h": 460,
+        "rw": 882,
+        "rh": 498,
+        "cls": "join-our-team-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa134a5f0daf588087db12d_Rectangle_52.webp",
+        "alt": "Join Our Team Image",
+        "w": 611,
+        "h": 690,
+        "rw": 441,
+        "rh": 498,
+        "cls": "join-our-team-image"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nWe’re the bank for companies who want to build and launch financial products.\n2,400+\nCustomers\n70+\nCountries\n75+\nbank firms using Docket\n1\n2\n3\n4\n5\nWho we are\nIntegrate with Docket via simple APIs to embed bank accounts, payments, and more into your products.\n\nAutomate and streamline key compliance processes and stay on top of your regulatory obligations with our financial crime prevention tools.\n\nOur financial crime prevention products take the friction out of compliance, helping you meet regulatory obligations with ease.\n\nMeet your regulatory obligations faster, with financial crime prevention tools that automate the heavy lifting.Streamline compliance and stay ahead of financial crime, all in one place.\n\n(Short) Automate compliance. Prevent financial crime. Meet your obligations.\n\"We embedded bank accounts straight into our app and our customers never have to leave. Reconciliation that used to eat our week now runs itself.\"\n— David Chen, Founder & CEO, Northwind\nLeadership\nDavid Jarvis\nFounder, Chief Executive Officer\nAllen Rohner\nFounder, Chief Technology Officer\nPhoebe Wallis\nChief Revenue Officer\nEd Carter\nChief Operating Officer\nJenna Baker\nChief People Officer\nBob VanBreda\nInterim Chief Financial Officer\nNew Insights\nHow embedded bank accounts simplify payment reconciliation\nJanuary 15, 2026\n.\nProduct\nKYC and KYB, automated: a faster path to onboarding the right customers\nFebruary 26, 2026\n.\nCompliance\nWhy we built business banking for founders, by founders\nFebruary 26, 2026\n.\nCompany\nJoin Our Team. Help Shape The Future Of Banking Services.\nExplore Open Roles\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "pricing": {
+    "title": "Docketo Pricing – Flexible Infrastructure Plans for Growth",
+    "metaDesc": "Transparent pricing models built for startups and enterprise fintechs. Scale your financial products seamlessly with no hidden fees.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda900758034b7333addf_Rectangle_16.webp",
+        "alt": "Review Image",
+        "w": 1440,
+        "h": 1741,
+        "rw": 426,
+        "rh": 517,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda902cc984feaa2cba89_Rectangle_17.webp",
+        "alt": "Review Image",
+        "w": 1440,
+        "h": 1741,
+        "rw": 426,
+        "rh": 515,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fda905a39433fe60621c9_Rectangle_18.webp",
+        "alt": "Review Image",
+        "w": 0,
+        "h": 0,
+        "rw": 426,
+        "rh": 517,
+        "cls": "review-image"
+      },
+      {
+        "local": "/assets/testimonials/6a9fdc88983dc258ee9692e4_Vector.svg",
+        "alt": "Slide Arrow ",
+        "w": 8,
+        "h": 14,
+        "rw": 8,
+        "rh": 14,
+        "cls": ""
+      },
+      {
+        "local": "/assets/testimonials/6a9fdc888fc86088ef8f6cbe_2.svg",
+        "alt": "Slide Arrow ",
+        "w": 8,
+        "h": 14,
+        "rw": 8,
+        "rh": 14,
+        "cls": ""
+      },
+      {
+        "local": "/assets/brand/6a9fe1572a8174be32f150f5_Subtract.svg",
+        "alt": "",
+        "w": 19,
+        "h": 20,
+        "rw": 19,
+        "rh": 20,
+        "cls": "faq-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nSimple, transparent pricing that scales with you.\nNo hidden fees. No surprises. Just the banking infrastructure you need to build.\nStarter\nFor early-stage teams testing and building.\n£0 / month\nWhat’s included:\n1 operational bank account\nAPI access with full documentation\nUp to 100 customer accounts\nStandard KYC & KYB checks\nEmail support\nFSCS-protected deposits up to £120,000\nBook a Demo\nGrowth\nFor scaling fintechs ready to go live.\n£499 / month\nWhat’s included:\nUnlimited customer accounts\nEmbedded bank accounts & payments\nAutomated reconciliation\nInterest-bearing accounts\nAutomated KYC & KYB with risk screening\nPriority support\nBook a Demo\nEnterprise\nFor established businesses with complex needs.\nCustom pricing\nWhat’s included:\nSafeguarding & client money accounts\nStructured lending & overdrafts\nDedicated account manager\nCustom SLAs\nAdvanced compliance & reporting tools\nWhite-glove onboarding\nContact US\n“We embedded banking directly into our product and finally own the customer relationship end to end. Retention is up and our team spends far less time on back-office headaches.”\nSarah Mitchell\nFounder & CEO, Loop Payments\nFrequently Asked Questions (FAQ)\nWhat is embedded banking, and how does it work?\nEmbedded banking lets you offer bank accounts, payments, and other financial services directly inside your own product — no need to send customers to a separate provider. You connect to our platform through a simple API, and we handle the underlying banking infrastructure while you keep full ownership of the customer relationship.\nDo I need my own banking license to build with Docket?\nNo. Because we hold the necessary regulatory permissions, you can offer banking and payment services under our infrastructure without obtaining your own license. This lets you launch faster and stay compliant from day one. [Confirm exact regulatory wording with Griffin's compliance team.]\nHow quickly can I integrate and go live?\nIntegration timelines depend on your use case, but our API is built to be developer-friendly with clear documentation, so many teams move from testing to launch in a matter of weeks rather than months.\nHow do client money and safeguarding accounts keep funds protected?\nClient money and safeguarding accounts keep your customers' funds separate from your operating capital, in line with regulatory requirements. This protects those funds and simplifies your reporting, reconciliation, and compliance obligations. [Verify specifics against Griffin's safeguarding documentation.]\nWhat kinds of businesses use Docket?\nOur platform supports a wide range of use cases — from lenders and payment providers to wealth managers, fintechs, and platforms building new financial products. If you want to embed accounts, payments, or compliant money management into your offering, it's likely a fit.\nHow does Docket help with reconciliation and compliance?\nOur embedded accounts are designed to reduce manual work by streamlining reconciliation and automating much of the reporting and compliance that typically slows teams down — so you can focus on your product instead of back-office admin.\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "contact": {
+    "title": "Book a Demo – Talk to Our Embedded Banking Experts | Docketo",
+    "metaDesc": "Schedule a live demo with our financial infrastructure experts to see how Docketo can power your platform's banking capabilities.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/contact/6a9face557d7a043920c38b0_Frame-2.svg",
+        "alt": "Brand Logo",
+        "w": 117,
+        "h": 20,
+        "rw": 117,
+        "rh": 20,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face505b305c8bf9901ec_Frame-1.svg",
+        "alt": "Brand Logo",
+        "w": 109,
+        "h": 20,
+        "rw": 109,
+        "rh": 20,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5bd6044b0d2a6254a_Logo.svg",
+        "alt": "Brand Logo",
+        "w": 55,
+        "h": 20,
+        "rw": 55,
+        "rh": 20,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5f66c5c781107478d_Logo-1.svg",
+        "alt": "Brand Logo",
+        "w": 111,
+        "h": 20,
+        "rw": 111,
+        "rh": 20,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face55165954a30be5e48_Frame.svg",
+        "alt": "Brand Logo",
+        "w": 152,
+        "h": 20,
+        "rw": 152,
+        "rh": 20,
+        "cls": ""
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "section-contact",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6a9fabc50b484534373fdc15_Rectangle%2055.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nTell us what you're building\nWhether you're ready to build or just exploring, our team is here to help.\nFirst Name\nLast Name\nBusiness Email Address\nCompany Name\nJob Title\nPhone Number\nMessage\nFor details about how we collect, use, and protect your information, please see our privacy policy.\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "careers": {
+    "title": "Careers at Docketo – Join the Future of Banking Infrastructure",
+    "metaDesc": "Explore open roles at Docketo and help us build next-generation financial tools for businesses worldwide.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe3182a8174be32f2ce35_LinkFilm-Image__11_1.webp",
+        "alt": "Careers Image ",
+        "w": 1062,
+        "h": 600,
+        "rw": 700,
+        "rh": 400,
+        "cls": "careers-tracker-image"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe3182a8174be32f2ce23_Carer_.webp",
+        "alt": "Careers Image ",
+        "w": 1050,
+        "h": 600,
+        "rw": 700,
+        "rh": 400,
+        "cls": "careers-tracker-image"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe31841d07c1bd72742b2_LinkFilm-Image__12_1.webp",
+        "alt": "Careers Image ",
+        "w": 1050,
+        "h": 600,
+        "rw": 700,
+        "rh": 400,
+        "cls": "careers-tracker-image"
+      },
+      {
+        "local": "/assets/misc/6a9fe45eb9d62c1a54b0ca46_0.svg",
+        "alt": "Careers Icon",
+        "w": 27,
+        "h": 27,
+        "rw": 27,
+        "rh": 27,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6a9fe4d58ff20741e1440dab_Group.svg",
+        "alt": "Careers Icon",
+        "w": 26,
+        "h": 26,
+        "rw": 26,
+        "rh": 26,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6a9fe7e62e2c16a2df201663_1.webp",
+        "alt": "Our Core Values Image",
+        "w": 371,
+        "h": 215,
+        "rw": 608,
+        "rh": 354,
+        "cls": "our-core-values-image"
+      },
+      {
+        "local": "/assets/misc/6a9fe81734447b477d4d3f5d_Group_180.webp",
+        "alt": "Our Core Values Image",
+        "w": 774,
+        "h": 450,
+        "rw": 608,
+        "rh": 353,
+        "cls": "our-core-values-image"
+      },
+      {
+        "local": "/assets/misc/6a9fe8178ff20741e146a81e_3.webp",
+        "alt": "Our Core Values Image",
+        "w": 371,
+        "h": 215,
+        "rw": 608,
+        "rh": 354,
+        "cls": "our-core-values-image"
+      },
+      {
+        "local": "/assets/misc/6aa0078361dc79fb57968229_map-pin.svg",
+        "alt": "Map lcon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "map-lcon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nCareers at Docket\nWe're changing the future of banking, and we're looking for kind, thoughtful, resilient people to help us get there.\nExplore Open Roles\nOur culture\nOur culture is our most valuable asset. Learn more about our core values and behaviours.\nWhere we hire\nOutside the UK, we can currently hire people based in Germany, Ireland, and Sweden.\nOur values are a commitment to our customers and a signal of the culture we're building.\nTransparency\n01\nWe empower our people to do their best work by being as transparent as we can internally.\nNo hidden fees, no surprises — just clear pricing and honest answers.\nWe tell you exactly how things work, so you always know where you stand.\nClear Pricing, open communication, and no fine print.\nWhat you see is what you get — always.\nFlexibility\n02\nWe care about your insights and your impact – not how many hours you spend at your desk.\nBuild the way you want, with infrastructure that adapts to your needs.\nOne platform, endless use cases-shaped around how you work.\nFrom startup to scale, our products flex to fit your business.\nIntegrate anywhere, build anything-on your terms.\nTrust\n03\nWe assume everyone who works here will act in the best interest of the company by default.\nBank-grade security and full compliance, built in from day one.\nYour funds protected, your data secure, your business covered.\nRegulated, reliable, and built to keep your customers' money safe.\nThe dependable foundation your customers can bank on.\nBenefits & Perks\nFor Employees\nComprehensive health, dental, and vision insurance\nMental health support\nCompany sponsored retirement plan\nDaily lunch in-office (in SF and NY)\nFamily and Time Off\n18 weeks paid parental leave\nFlexible time off\nFertility benefits\nSabbatical after 4 years of service\nCulture and Personal Development\nAnnual learning & development stipend\nAI skill development and enablement\nPersonalized Funko Pop on 3-year anniversary\n\"Raising The Bar\" professional development program\nJoin our team.\nEngineering\nEngineering Manager\nLondon or remote within the UK\nApply Now\nSoftware Engineer\nLondon or remote within the UK\nApply Now\nMarketing\nMarketing Associate\nLondon or remote within the UK\nApply Now\nFinance\nTreasury Manager\nLondon or remote within the UK\nApply Now\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "embedded-bank": {
+    "title": "Embedded Bank Accounts – Banking Built into Your Platform | Docketo",
+    "metaDesc": "Enable seamless financial experiences within your app. Offer instant account creation, integrated payments, and full control over your customer experience.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa24d4563d38f57df1795c0_EM.webp",
+        "alt": "Global Header Image",
+        "w": 1440,
+        "h": 731,
+        "rw": 1350,
+        "rh": 686,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/misc/6aa244781c68ed65921f8c06_Built_For_1.svg",
+        "alt": "Built For Icon+",
+        "w": 21,
+        "h": 21,
+        "rw": 21,
+        "rh": 21,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477febe43e979772751_Built_For02.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477c2220127b897f977_Built_For03.svg",
+        "alt": "Built For Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/brand/6a9fe1572a8174be32f150f5_Subtract.svg",
+        "alt": "",
+        "w": 19,
+        "h": 20,
+        "rw": 19,
+        "rh": 20,
+        "cls": "faq-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248a974f1a54c8687778f_akar-icons_double-check.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248aa3b97c4a6a32ed601_carbon_manage-protection.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nBank accounts to power any product\nOur all-purpose accounts fit wherever you need them — behind the scenes or front of house — powering simpler payments, automated reconciliation, and new features for your customers.\nBook a Demo\nOne account, any product\nOne account, any product\nOne account, any product\nNot just another virtual account\nStreamline backend operations\nTurn complex payment flows into simple ones by giving each customer a dedicated account — built for loan repayments, recurring transactions, rental tracking, and more.\nEnhance your customer experience\nReal bank accounts mean real banking for your customers. Funds stay on your platform while customers open accounts, make payments, and earn interest — without ever leaving your app.\nDeposit protection\nLet customers rest easy, knowing their deposits are protected up to £120,000 by the FSCS.\nIndividual accounts\nEach account is owned by your customer, with a real sort code and unique account number.\nEarn interest\nInterest-bearing accounts help you stay competitive and create more value for your customers.\nSolutions for complex businesses\nLenders\nWith individual accounts per borrower, lenders are streamlining loan disbursements and automating repayment collection.\nCredit card providers\nWith real bank accounts, customers can unlock higher credit limits by topping their cards with cash.\nB2C platforms\nGive customers a full range of day-to-day banking services, from opening accounts to making payments, plus opportunities to earn interest — all from your own platform.\nPayroll providers\nComplex payroll operations are easily automated with a bank account for each employer embedded directly into your workflow.\nFrequently Asked Questions (FAQ)\nWhat is embedded banking, and how does it work?\nEmbedded banking lets you offer bank accounts, payments, and other financial services directly inside your own product — no need to send customers to a separate provider. You connect to our platform through a simple API, and we handle the underlying banking infrastructure while you keep full ownership of the customer relationship.\nDo I need my own banking license to build with Docket?\nNo. Because we hold the necessary regulatory permissions, you can offer banking and payment services under our infrastructure without obtaining your own license. This lets you launch faster and stay compliant from day one. [Confirm exact regulatory wording with Griffin's compliance team.]\nHow quickly can I integrate and go live?\nIntegration timelines depend on your use case, but our API is built to be developer-friendly with clear documentation, so many teams move from testing to launch in a matter of weeks rather than months.\nHow do client money and safeguarding accounts keep funds protected?\nClient money and safeguarding accounts keep your customers' funds separate from your operating capital, in line with regulatory requirements. This protects those funds and simplifies your reporting, reconciliation, and compliance obligations. [Verify specifics against Griffin's safeguarding documentation.]\nWhat kinds of businesses use Docket?\nOur platform supports a wide range of use cases — from lenders and payment providers to wealth managers, fintechs, and platforms building new financial products. If you want to embed accounts, payments, or compliant money management into your offering, it's likely a fit.\nHow does Docket help with reconciliation and compliance?\nOur embedded accounts are designed to reduce manual work by streamlining reconciliation and automating much of the reporting and compliance that typically slows teams down — so you can focus on your product instead of back-office admin.\nEligibility\nAre we a good fit? Check out our eligibility criteria.\nLearn More\nDeposit protection\nYour customers' deposits are protected.\nLearn More\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "safeguarding": {
+    "title": "Safeguarding Accounts for EMIs & PIs – Regulatory Protection | Docketo",
+    "metaDesc": "Protect client funds with fully ringfenced safeguarding accounts designed specifically for Payment Institutions (PIs) and Electronic Money Institutions (EMIs).",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa1433b837a12fa3a6e8b9e_Global_Header_1.webp",
+        "alt": "Global Header Image",
+        "w": 1440,
+        "h": 731,
+        "rw": 1350,
+        "rh": 686,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5f66c5c781107478d_Logo-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 111,
+        "h": 20,
+        "rw": 111,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face557d7a043920c38b0_Frame-2.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 117,
+        "h": 20,
+        "rw": 117,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face505b305c8bf9901ec_Frame-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 109,
+        "h": 20,
+        "rw": 109,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face55165954a30be5e48_Frame.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 152,
+        "h": 20,
+        "rw": 152,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face5bd6044b0d2a6254a_Logo.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 55,
+        "h": 20,
+        "rw": 55,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa244781c68ed65921f8c06_Built_For_1.svg",
+        "alt": "Built For Icon",
+        "w": 21,
+        "h": 21,
+        "rw": 21,
+        "rh": 21,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477febe43e979772751_Built_For02.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477c2220127b897f977_Built_For03.svg",
+        "alt": "Built For Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa247571c68ed659221167a_icon.svg",
+        "alt": "Icon",
+        "w": 15,
+        "h": 11,
+        "rw": 15,
+        "rh": 11,
+        "cls": "icon"
+      },
+      {
+        "local": "/assets/misc/6ac37b1598066bdb8556eae6_Group_120.webp",
+        "alt": "Account Types Image",
+        "w": 1440,
+        "h": 723,
+        "rw": 578,
+        "rh": 290,
+        "cls": "account-types-image"
+      },
+      {
+        "local": "/assets/misc/6aa247aa3e29ca49be940bd6_Group_125.webp",
+        "alt": "Account Types Image",
+        "w": 1440,
+        "h": 796,
+        "rw": 578,
+        "rh": 320,
+        "cls": "account-types-image"
+      },
+      {
+        "local": "/assets/misc/6aa248a974f1a54c8687778f_akar-icons_double-check.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248aa3b97c4a6a32ed601_carbon_manage-protection.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "account-types-image-wrap account-types-fast-bg-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa247aa2f1bebbb77fc172f_Mask%20group.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "account-types-image-wrap second-card-bg-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa247aaf73b0a09ced6ca09_Mask%20group2.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nSafeguard customer money and earn on it\nProtecting customer funds is simple: quick onboarding, easy API integration, and effortless reconciliation.\nContact Sales\nSafeguard customer money and earn on it\nSafeguard customer money and earn on it\nSafeguard customer money and earn on it\nEarn interest\nMaximise your earnings with competitive interest rates.\nSimplify reconciliation\nInstantly reconcile customer funds with our ledger, or integrate your own solution via API.\nGet set up fast\nOnboard with us in days, not months.\nWho is this for?\nOur safeguarding services are for FCA regulated electronic money institutions and payments institutions.\nDedicated or pooled accounts\nDedicated\nIndividual bank accounts for each of your customers\nUnique account number and sort code combinations\nIntegrated ledger for instant reconciliation and easy reporting\nPooled\nOne pooled safeguarding account for all customer funds\nIntegrates with your existing ledger and accounting systems via API\nEligibility\nAre we a good fit? Check out our eligibility criteria.\nLearn More\nDeposit protection\nYour customers' deposits are protected.\nLearn More\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "savings-accounts": {
+    "title": "High-Yield Savings Accounts – Interest-Bearing Solutions | Docketo",
+    "metaDesc": "Offer high-yield savings accounts to your users. Provide competitive interest rates and flexible account structures integrated directly into your product.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa249e0b5d1ef6b91badf24_Saving_Account_.webp",
+        "alt": "Global Header Image",
+        "w": 1440,
+        "h": 731,
+        "rw": 1350,
+        "rh": 686,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5f66c5c781107478d_Logo-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 111,
+        "h": 20,
+        "rw": 111,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face557d7a043920c38b0_Frame-2.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 117,
+        "h": 20,
+        "rw": 117,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face505b305c8bf9901ec_Frame-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 109,
+        "h": 20,
+        "rw": 109,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face55165954a30be5e48_Frame.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 152,
+        "h": 20,
+        "rw": 152,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face5bd6044b0d2a6254a_Logo.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 55,
+        "h": 20,
+        "rw": 55,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa244781c68ed65921f8c06_Built_For_1.svg",
+        "alt": "Built For Icon",
+        "w": 21,
+        "h": 21,
+        "rw": 21,
+        "rh": 21,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477febe43e979772751_Built_For02.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477c2220127b897f977_Built_For03.svg",
+        "alt": "Built For Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248a974f1a54c8687778f_akar-icons_double-check.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248aa3b97c4a6a32ed601_carbon_manage-protection.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nAdd savings accounts to your product\nGive customers more from their money with interest-bearing savings accounts, built right into your product.\nContact Sales\nAdd savings accounts to your product\nAdd savings accounts to your product\nAdd savings accounts to your product\nHelp your customers save\nEngage and retain customers with competitive interest rates.\nOwn your user experience\nEmbed white-label savings accounts directly into your app or product.\nGuarantee protection\nGive your customers peace of mind with deposits covered by the FSCS.\nWho is this for?\nOur embedded savings accounts are for UK limited companies who serve SMEs or consumers. As this is a white-label product, you don’t need any specific regulatory permissions.\nWhat’s on offer\nEasy access savings accounts\nGive your customers maximum flexibility and easy access to their funds, while still offering competitive interest rates.\nTerm deposit accounts\nSecure high returns for your customers with long-term savings options at a fixed rate of interest.\nNotice accounts\nOffer the optimal blend of earnings and access — your customers can earn higher interest and still make scheduled withdrawals.\nEligibility\nAre we a good fit? Check out our eligibility criteria.\nLearn More\nDeposit protection\nYour customers' deposits are protected.\nLearn More\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "client-money": {
+    "title": "Client Money Accounts – CASS & CMP Compliant Banking | Docketo",
+    "metaDesc": "Streamline client funds management with compliant, dedicated accounts. Simplify reconciliation and lower regulatory risks for proptech, legal, and financial platforms.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa24336c9fc07bcca127991_002.webp",
+        "alt": "Global Header Image",
+        "w": 922,
+        "h": 467,
+        "rw": 1350,
+        "rh": 685,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5f66c5c781107478d_Logo-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 111,
+        "h": 20,
+        "rw": 111,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face557d7a043920c38b0_Frame-2.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 117,
+        "h": 20,
+        "rw": 117,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face505b305c8bf9901ec_Frame-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 109,
+        "h": 20,
+        "rw": 109,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face55165954a30be5e48_Frame.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 152,
+        "h": 20,
+        "rw": 152,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face5bd6044b0d2a6254a_Logo.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 55,
+        "h": 20,
+        "rw": 55,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa244781c68ed65921f8c06_Built_For_1.svg",
+        "alt": "Built For Icon",
+        "w": 21,
+        "h": 21,
+        "rw": 21,
+        "rh": 21,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477febe43e979772751_Built_For02.svg",
+        "alt": "Built For Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa24477c2220127b897f977_Built_For03.svg",
+        "alt": "Built For Icon",
+        "w": 20,
+        "h": 20,
+        "rw": 20,
+        "rh": 20,
+        "cls": "built-for-icon"
+      },
+      {
+        "local": "/assets/misc/6aa247571c68ed659221167a_icon.svg",
+        "alt": "Icon",
+        "w": 15,
+        "h": 11,
+        "rw": 15,
+        "rh": 11,
+        "cls": "icon"
+      },
+      {
+        "local": "/assets/misc/6aa247aafde3e066243f6aad_eb26ae778052bce3f8f95311df264051_Group_120.webp",
+        "alt": "Account Types Image",
+        "w": 1439,
+        "h": 722,
+        "rw": 578,
+        "rh": 290,
+        "cls": "account-types-image"
+      },
+      {
+        "local": "/assets/misc/6aa247aa3e29ca49be940bd6_Group_125.webp",
+        "alt": "Account Types Image",
+        "w": 301,
+        "h": 166,
+        "rw": 578,
+        "rh": 320,
+        "cls": "account-types-image"
+      },
+      {
+        "local": "/assets/misc/6aa248a974f1a54c8687778f_akar-icons_double-check.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248aa3b97c4a6a32ed601_carbon_manage-protection.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "account-types-image-wrap account-types-fast-bg-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa247aa2f1bebbb77fc172f_Mask%20group.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "account-types-image-wrap second-card-bg-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa247aaf73b0a09ced6ca09_Mask%20group2.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nManage client money with ease\nManage client money the compliant way, with API-enabled bank accounts built for it.\nContact Sales\nManage client money with ease\nManage client money with ease\nManage client money with ease\nOpen dedicated accounts\nGet a separate account for each client, with unique account numbers to minimise payment errors.\nSimplify reconciliation\nInstantly reconcile client funds with our ledger, or integrate your own solution via API.\nEarn interest\nCompetitive interest rates mean new revenue streams for you.\nWho is this for?\nThese accounts are for firms that need to comply with industry regulations on handling client money, such as CASS, CMP, or SRA.\nReady-to-go workflows\nUse our pre-approved onboarding workflows that are designed to work with our banking products.\nEarly, fast access to Docket BaaS platform\nReduce the time it takes to go through due diligence for our banking products.\nAlways up to date with the latest checks\nWe keep our preset workflows up to date with the latest requirements for checks and screening.\nDedicated or pooled accounts\nDedicated\nIndividual bank accounts for each of your customers\nUnique account number and sort code combinations\nIntegrated ledger for instant reconciliation and easy reporting\nPooled\nOne pooled safeguarding account for all customer funds\nIntegrates with your existing ledger and accounting systems via API\nEligibility\nAre we a good fit? Check out our eligibility criteria.\nLearn More\nDeposit protection\nYour customers' deposits are protected.\nLearn More\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "business-bank": {
+    "title": "Business Bank Accounts – Operational Banking via API & App | Docketo",
+    "metaDesc": "Manage your business operations with flexible, high-yield business bank accounts. Access funds instantly via API or web portal with enterprise-grade security.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa24c37c9fc07bcca16b6f1_Business_.webp",
+        "alt": "Global Header Image",
+        "w": 1440,
+        "h": 731,
+        "rw": 1350,
+        "rh": 686,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/brand/6a9fe1572a8174be32f150f5_Subtract.svg",
+        "alt": "",
+        "w": 19,
+        "h": 20,
+        "rw": 19,
+        "rh": 20,
+        "cls": "faq-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248a974f1a54c8687778f_akar-icons_double-check.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/misc/6aa248aa3b97c4a6a32ed601_carbon_manage-protection.svg",
+        "alt": "Careers Icon",
+        "w": 24,
+        "h": 24,
+        "rw": 24,
+        "rh": 24,
+        "cls": "careers-icon"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nBusiness banking made by founders who get it\nOperational accounts made for the way fintechs and startups work — online, API-first, and earning interest while you build.\nBook a Demo\nBusiness banking made by founders who get it\nBusiness banking made by founders who get it\nBusiness banking made by founders who get it\nWhat you get\nFintech and startup friendly\nWe’ve been where you are, building product-market fit and showing traction. We’re here to help you get going fast.\nEarn interest\nEarn 1.76% AER (variable) on all your funds, not some. Tracks Bank of England base rate.\nAccess via the website or API\nUse your account how you want. Customise it via our API or take advantage of our app. There are no limits.\nCards\nDebit cards linked to your operational account for your day-to-day spending.\nFrequently Asked Questions (FAQ)\nWhat is embedded banking, and how does it work?\nEmbedded banking lets you offer bank accounts, payments, and other financial services directly inside your own product — no need to send customers to a separate provider. You connect to our platform through a simple API, and we handle the underlying banking infrastructure while you keep full ownership of the customer relationship.\nDo I need my own banking license to build with Docket?\nNo. Because we hold the necessary regulatory permissions, you can offer banking and payment services under our infrastructure without obtaining your own license. This lets you launch faster and stay compliant from day one. [Confirm exact regulatory wording with Griffin's compliance team.]\nHow quickly can I integrate and go live?\nIntegration timelines depend on your use case, but our API is built to be developer-friendly with clear documentation, so many teams move from testing to launch in a matter of weeks rather than months.\nHow do client money and safeguarding accounts keep funds protected?\nClient money and safeguarding accounts keep your customers' funds separate from your operating capital, in line with regulatory requirements. This protects those funds and simplifies your reporting, reconciliation, and compliance obligations. [Verify specifics against Griffin's safeguarding documentation.]\nWhat kinds of businesses use Docket?\nOur platform supports a wide range of use cases — from lenders and payment providers to wealth managers, fintechs, and platforms building new financial products. If you want to embed accounts, payments, or compliant money management into your offering, it's likely a fit.\nHow does Docket help with reconciliation and compliance?\nOur embedded accounts are designed to reduce manual work by streamlining reconciliation and automating much of the reporting and compliance that typically slows teams down — so you can focus on your product instead of back-office admin.\nEligibility\nAre we a good fit? Check out our eligibility criteria.\nLearn More\nDeposit protection\nYour customers' deposits are protected.\nLearn More\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "verify": {
+    "title": "Instant Account & Identity Verification – Docketo Security",
+    "metaDesc": "Ensure fast, compliant onboarding and automated background verification for business and consumer accounts through Docketo’s verification API.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa1433b837a12fa3a6e8b9e_Global_Header_1.webp",
+        "alt": "Global Header Image",
+        "w": 1440,
+        "h": 731,
+        "rw": 1350,
+        "rh": 686,
+        "cls": "global-header-image"
+      },
+      {
+        "local": "/assets/misc/6ab0f547f25fa32ad3f8146d_bi_play-fill.svg",
+        "alt": "Global Header Play Icon",
+        "w": 31,
+        "h": 31,
+        "rw": 31,
+        "rh": 31,
+        "cls": ""
+      },
+      {
+        "local": "/assets/contact/6a9face5f66c5c781107478d_Logo-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 111,
+        "h": 20,
+        "rw": 111,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face557d7a043920c38b0_Frame-2.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 117,
+        "h": 20,
+        "rw": 117,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face505b305c8bf9901ec_Frame-1.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 109,
+        "h": 20,
+        "rw": 109,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face55165954a30be5e48_Frame.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 152,
+        "h": 20,
+        "rw": 152,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/contact/6a9face5bd6044b0d2a6254a_Logo.svg",
+        "alt": "Global Header Brand Logo",
+        "w": 55,
+        "h": 20,
+        "rw": 55,
+        "rh": 20,
+        "cls": "global-header-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6aa23f1dfebe43e9797516d1_The_Better_Way01.webp",
+        "alt": "The Better Way Image",
+        "w": 450,
+        "h": 398,
+        "rw": 394,
+        "rh": 348,
+        "cls": "the-better-way-image"
+      },
+      {
+        "local": "/assets/misc/6aa23f1d5266f6afdff1d65d_The_Better_Way02.webp",
+        "alt": "The Better Way Image",
+        "w": 368,
+        "h": 208,
+        "rw": 394,
+        "rh": 223,
+        "cls": "the-better-way-image"
+      },
+      {
+        "local": "/assets/misc/6aa23f1df63ba45cf8bd304d_The_Better_Way03.webp",
+        "alt": "The Better Way Image",
+        "w": 368,
+        "h": 216,
+        "rw": 394,
+        "rh": 231,
+        "cls": "the-better-way-image"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [
+      {
+        "selector": "div",
+        "className": "the-better-way-image-wrap fast-card-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa23f1df63ba45cf8bd3071_The%20Better%20Way%201.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "the-better-way-image-wrap second-card-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa23f64f4068703fc1c897e_02.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "the-better-way-image-wrap third-card-image",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa23f641d37a1c56f981d89_03.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "selector": "div",
+        "className": "section-cta",
+        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6a97e0888b7091a5fa9de27d/6aa13ce299b954d32aee2d39_CTA%20BG.webp\")",
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nEnd-to-end onboarding, built for fintechs\nVerify gives fintechs the tools to manage risk, automate KYC and KYB, and approve good customers fast.\nBook a Demo\nSafeguard customer money and earn on it\nSafeguard customer money and earn on it\nSafeguard customer money and earn on it\nGrowth without the risk\nSpeed up onboarding and stay on top of risk, with screening checks that take just seconds.\nNo more manual errors.\nAutomate routine decisions and shrink your review queue, giving your team time for what matters most.\nGet started in no time\nGet integrated quickly, with a developer-friendly API and docs that make sense.\nNative to Docket banking products\nReady-to-go workflows\nUse our pre-approved onboarding workflows that are designed to work with our banking products.\nEarly, fast access to Docket BaaS platform\nReduce the time it takes to go through due diligence for our banking products.\nAlways up to date with the latest checks\nWe keep our preset workflows up to date with the latest requirements for checks and screening.\nBuild, launch and scale your financial products on one powerful platform.\nContact Sales\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "changelog": {
+    "title": "Changelog – Docketo",
+    "metaDesc": "Track the latest updates, feature releases, improvements, and bug fixes applied to the Docketo template.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\nVersion 1.0\nOct 03, 2026\n\nDocketo HTML Webflow Template Release\n\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  },
+  "licenses": {
+    "title": "Asset Licenses – Docketo",
+    "metaDesc": "Information on image, icon, and font licensing used throughout the Docketo website template.",
+    "imgs": [
+      {
+        "local": "/assets/brand/6a9f9786ba671b49004b2392_Black.svg",
+        "alt": "",
+        "w": 127,
+        "h": 34,
+        "rw": 127,
+        "rh": 34,
+        "cls": "nav-brand-logo"
+      },
+      {
+        "local": "/assets/misc/6a97e0888b7091a5fa9de253_chevron-down.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16,
+        "rw": 16,
+        "rh": 16,
+        "cls": "dropdown-arrow"
+      },
+      {
+        "local": "/assets/misc/6aa28c93d255b280f126199b_2.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 710,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/misc/6aa4d462dd74f803af3e3724_61f0c8cc5a3c7c2016543a0cc1d63df4_0.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 398,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/misc/6aa28c4b26723c02fcb78a45_1st.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 710,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa134a5f0daf588087db12d_Rectangle_52.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 796,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/about-careers/6a9fe3182a8174be32f2ce35_LinkFilm-Image__11_1.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 398,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/about-careers/6aa134a662337786c352cf7d_Rectangle_51.webp",
+        "alt": "Licenses Image ",
+        "w": 705,
+        "h": 385,
+        "rw": 384,
+        "rh": 224,
+        "cls": "cover-image"
+      },
+      {
+        "local": "/assets/brand/6a9f978622592099fe8b7af9_White_Logo.svg",
+        "alt": "",
+        "w": 186,
+        "h": 50,
+        "rw": 186,
+        "rh": 50,
+        "cls": "footer-brand-logo"
+      },
+      {
+        "local": "/assets/brand/6a9f98d9608ffcc774be1282_Group_96.svg",
+        "alt": "Brand Logo ",
+        "w": 757,
+        "h": 160,
+        "rw": 757,
+        "rh": 160,
+        "cls": "brand-logo"
+      }
+    ],
+    "bgImages": [],
+    "mainText": "Products\nAbout\nPrice\nBlog\npages\nBook a Demo\n\nAll graphical assets in this template are licensed for personal and commercial use. If you'd like to use a specific asset, please check the license below.\n\nPhotography\n\nAll images used in the template are licensed for personal and commercial use. If you want to use some specific image, you can check the licenses and download the images for free from LinkFilm\n\nIcons\n\nAll graphical assets in this template are licensed for personal and commercial use. If you'd like to use a specific asset, please check the license below. All icons are sourced from Iconify And  Thenounproject\n\nTypography\n\nThis template uses General Sans and  Clash Grotesk you can obtain this from Font Share and  Google directly!\n\nGeneral Sans\nAmethysta\nProduct\nEmbedded bank\nSafeguarding\nSavings accounts\nClient money\nBusiness bank\nVerify\nExplore\nHome\nAbout\nBlog\nContact us\nCareers\nPricing\nPolicies\nPrivacy policy\nTerms & Conditions\nCookies\nEligibility\nUtility page\nStyle guide\nChange log\nPassword\n404 not found\nLicenses\nCopyright © 2026 Docket. All rights reserved.\nDesigned by webocean, Powered by Webflow"
+  }
+}
