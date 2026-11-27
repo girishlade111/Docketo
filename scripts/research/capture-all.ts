@@ -601,6 +601,7 @@ async function main() {
   ]) {
     await mPage.goto(`${BASE_URL}${rPath.path}`, { waitUntil: "networkidle", timeout: 45000 }).catch(() => {});
     await mPage.evaluate(() => document.fonts.ready);
+    await autoScroll(mPage);
     await mPage.screenshot({
       path: path.join(RESEARCH_DIR, "reference", "screenshots", "mobile", `${rPath.id}.png`),
       fullPage: true,
@@ -613,7 +614,7 @@ async function main() {
     await menuBtn.click();
     await mPage.waitForTimeout(350);
     await mPage.screenshot({
-      path: path.join(RESEARCH_DIR, "reference", "screenshots", "interaction-states", "mobile-menu-open.png`),
+      path: path.join(RESEARCH_DIR, "reference", "screenshots", "interaction-states", "mobile-menu-open.png"),
       fullPage: false,
     });
   }
