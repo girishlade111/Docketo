@@ -1,0 +1,32 @@
+.section {
+  background-color: var(--color-page-background);
+  padding-block: clamp(4rem, 8vw, 7rem);
+}
+
+.card {
+  width: 100%;
+  max-width: 720px;
+  min-height: 360px;
+  margin-inline: auto;
+  background-color: var(--color-white);
+  padding: clamp(2.5rem, 5vw, 4.5rem) 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.card p {
+  margin: 0;
+}
+
+.versionBadge {
+  padding: 0.5rem 0.875rem;
+  background-color: var(--color-page-background);
+  border-radius: var(--button-radius);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--color-text-secondary);
+}

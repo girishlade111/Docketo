@@ -1,0 +1,152 @@
+.section {
+  background-color: var(--color-page-background);
+  padding-block: clamp(2.5rem, 4.5vw, 4.5rem);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.sidebar {
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menuGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.menuRule {
+  border: 0;
+  border-top: 1px solid var(--color-divider);
+  margin: 0;
+}
+
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.menuLink {
+  padding: 0.625rem 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.menuLinkActive {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.mainPanel {
+  flex: 1;
+  background-color: var(--color-white);
+  padding: clamp(1.25rem, 1.875vw, 1.875rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.noteBox {
+  background-color: var(--color-page-background);
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.noteBox p {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.headingStrip {
+  background-color: var(--color-page-background);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swatchGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 1.25rem;
+}
+
+.swatchCard {
+  background-color: var(--color-page-background);
+  display: flex;
+  flex-direction: column;
+}
+
+.swatchColor {
+  min-height: 7.875rem;
+}
+
+.swatchBordered {
+  border: 1px solid var(--color-border);
+}
+
+.swatchLabel {
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+}
+
+.typeSpecimens {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.typeItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .swatchGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .sidebar {
+    max-width: 260px;
+    position: sticky;
+    top: 1.5rem;
+  }
+  .swatchGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
