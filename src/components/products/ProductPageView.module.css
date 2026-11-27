@@ -1,0 +1,416 @@
+.heroSection {
+  background-color: var(--color-page-background);
+  padding-top: clamp(2rem, 4vw, 4rem);
+  padding-bottom: clamp(2rem, 4vw, 4rem);
+}
+
+.heroComponent {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.75vw, 3.75rem);
+}
+
+.heroTopRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  max-width: 18ch;
+}
+
+.heroRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 435px;
+}
+
+.heroRight p {
+  margin: 0;
+}
+
+.heroBannerBtn {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1350 / 686;
+  min-height: 240px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black);
+}
+
+.heroBannerImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroBannerDim {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 15, 13, 0.25);
+}
+
+.marqueeOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.marqueeTrack {
+  display: flex;
+  gap: 2.5rem;
+  width: max-content;
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 6vw, 6rem);
+  line-height: 1;
+  color: var(--color-white);
+  white-space: nowrap;
+  animation: docketo-marquee-left 26s linear infinite;
+}
+
+.playCircle {
+  position: relative;
+  z-index: 2;
+  width: 68px;
+  height: 68px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--motion-fast) ease, background-color var(--motion-fast) ease;
+}
+
+.heroBannerBtn:hover .playCircle {
+  transform: scale(1.06);
+  background-color: rgba(255, 255, 255, 0.34);
+}
+
+.logoStripWrap {
+  margin-top: clamp(2rem, 3vw, 3rem);
+}
+
+.darkSection {
+  background-color: var(--color-black);
+}
+
+.lightSection {
+  background-color: var(--color-page-background);
+}
+
+.darkStack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 6vw, 6rem);
+}
+
+.centeredTitle {
+  text-align: center;
+}
+
+.highlightsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.5vw, 3.5rem);
+}
+
+.staggeredGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.staggeredCard {
+  background-color: var(--color-charcoal);
+  padding: clamp(1.5rem, 2.5vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.cardCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cardCopy p {
+  margin: 0;
+}
+
+.threeColGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.threeColItem,
+.offeringCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.threeColItem p,
+.offeringCard p {
+  margin: 0;
+}
+
+.whoRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.whoDesc {
+  margin: 0;
+  max-width: 440px;
+}
+
+.darkRowsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.darkRowItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--color-divider-dark);
+}
+
+.darkRowItem p {
+  margin: 0;
+  max-width: 480px;
+}
+
+.offeringsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* Verify Alternating */
+.verifyStack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 5vw, 5rem);
+}
+
+.verifyRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.verifyCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 480px;
+}
+
+.verifyCopy p {
+  margin: 0;
+}
+
+.verifyArtWrap {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.verifyOverlayImg {
+  width: 75%;
+  max-width: 420px;
+  height: auto;
+}
+
+/* Account Types */
+.accountTypesWrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.75vw, 3.75rem);
+}
+
+.accountCardsStack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.75vw, 3.75rem);
+}
+
+.accountCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accountLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.checkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.checkItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.accountArtWrap {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accountDiagram {
+  width: 82%;
+  height: auto;
+}
+
+/* Use Cases */
+.useCasesWrap {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.125vw, 3.125rem);
+}
+
+.useCaseRows {
+  display: flex;
+  flex-direction: column;
+}
+
+.useCaseRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-block: 1.75rem;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.useCaseRow p {
+  margin: 0;
+  max-width: 480px;
+}
+
+/* Resource Cards */
+.resourceGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.resourceCard {
+  background-color: var(--color-black);
+  padding: clamp(1.5rem, 2vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.resourceBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.resourceBody p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .staggeredGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .threeColGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem 4vw;
+  }
+  .resourceGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.875rem;
+  }
+  .useCaseRow,
+  .darkRowItem {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .heroTopRow {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .heroTitle {
+    max-width: 45vw;
+  }
+  .whoRow {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .verifyRow {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .verifyRowReversed {
+    flex-direction: row-reverse;
+  }
+  .verifyArtWrap {
+    max-width: 39vw;
+    height: 36vw;
+  }
+  .accountCard {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6vw;
+  }
+  .accountLeft {
+    width: 32%;
+  }
+  .accountArtWrap {
+    max-width: 52.8vw;
+    height: 31.25vw;
+  }
+}
