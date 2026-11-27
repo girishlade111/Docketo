@@ -1,0 +1,113 @@
+.section {
+  background-color: var(--color-page-background);
+}
+
+.stackContainer {
+  max-width: 1062px;
+  margin-inline: auto;
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 6.25vw, 6.25rem);
+}
+
+.panelWrapper {
+  display: flex;
+  flex-direction: column;
+  transform-origin: center top;
+  transition: transform 60ms linear;
+}
+
+.tabRow {
+  display: flex;
+  align-items: center;
+}
+
+.tabLeft {
+  justify-content: flex-start;
+}
+
+.tabRight {
+  justify-content: flex-end;
+}
+
+.labelTab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.25rem;
+  background-color: var(--color-black);
+  margin-bottom: -1px;
+}
+
+.diamondIcon {
+  width: 9.9px;
+  height: 9.9px;
+  background-color: var(--color-page-background);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+.labelText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: var(--color-white);
+  letter-spacing: 0.01em;
+}
+
+.panelBody {
+  background-color: var(--color-black);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 320px;
+}
+
+.description {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: var(--color-text-muted);
+}
+
+.diagramCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.diagramImg {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .panelWrapper {
+    position: sticky;
+    top: 95px;
+  }
+
+  .panelBody {
+    height: 469px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(2rem, 6.25vw, 6.25rem);
+    padding-left: 4.125rem;
+    padding-right: 3.75rem;
+    padding-block: 0;
+  }
+}

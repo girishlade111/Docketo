@@ -1,0 +1,118 @@
+.pricingSection {
+  background-color: var(--color-page-background);
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 3.125vw, 3.125rem);
+}
+
+.titleWrap {
+  width: 100%;
+  max-width: 582px;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.titleWrap p {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.cardGrowth {
+  background-color: var(--color-pricing-growth);
+}
+
+.cardEnterprise {
+  background-color: var(--color-pricing-enterprise);
+  color: var(--color-white);
+}
+
+.topContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.planName {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+
+.planDesc {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  opacity: 0.85;
+}
+
+.priceWrap {
+  display: flex;
+  align-items: baseline;
+}
+
+.bottomArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 2.5rem;
+}
+
+.featuresArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.includedHeader {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.includedHeaderDark {
+  border-bottom-color: var(--color-divider-dark);
+}
+
+.featureList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.875rem;
+  }
+}

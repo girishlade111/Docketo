@@ -1,0 +1,62 @@
+.splitSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.leftCol {
+  background-color: var(--color-page-background);
+  padding: clamp(2.5rem, 5vw, 5rem) var(--page-gutter);
+  display: flex;
+  align-items: center;
+}
+
+.leftInner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 4vw, 4rem);
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.introText p {
+  margin: 0;
+  max-width: 420px;
+}
+
+.logoMarqueeWrap {
+  width: 100%;
+}
+
+.rightCol {
+  background-color: var(--color-charcoal);
+  background-image: url("/assets/contact/6a9fabc50b484534373fdc15_Rectangle_55.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: clamp(2rem, 4vw, 4.5rem) var(--page-gutter);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .splitSection {
+    flex-direction: row;
+    min-height: calc(100vh - 80px);
+  }
+  .leftCol {
+    width: 45%;
+    padding-left: var(--page-gutter);
+    padding-right: clamp(2rem, 3.5vw, 4rem);
+  }
+  .rightCol {
+    width: 55%;
+    padding: clamp(2.5rem, 4vw, 4.5rem);
+  }
+}
