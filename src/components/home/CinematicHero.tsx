@@ -63,7 +63,7 @@ export function CinematicHero() {
     <>
       <section ref={sectionRef} className={styles.sectionHero} aria-label="Docketo Hero">
         <div className={styles.stickyWrap}>
-          <div className={styles.headerLayer}>
+          <div className={styles.headerLayer} style={{ zIndex: progress > 0.35 ? 15 : 2 }}>
             <SiteHeader />
           </div>
 

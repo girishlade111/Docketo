@@ -16,6 +16,23 @@ export function SiteHeader({ className = "" }: SiteHeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileSubmenu, setMobileSubmenu] = useState<"products" | "pages" | null>(null);
   const headerRef = useRef<HTMLElement>(null);
+  const hoverTimestampRef = useRef<number>(0);
+
+  function handleHoverOpen(menu: "products" | "pages") {
+    hoverTimestampRef.current = Date.now();
+    setOpenDropdown(menu);
+  }
+
+  function handleTriggerClick(menu: "products" | "pages", detail: number) {
+    // Keyboard activation (detail === 0) or deliberate repeat click toggles;
+    // an immediate click right after mouseenter keeps the menu open.
+    const justHovered = detail > 0 && Date.now() - hoverTimestampRef.current < 350;
+    if (justHovered) {
+      setOpenDropdown(menu);
+      return;
+    }
+    setOpenDropdown((cur) => (cur === menu ? null : menu));
+  }
 
   useEffect(() => {
     setOpenDropdown(null);
@@ -59,7 +76,7 @@ export function SiteHeader({ className = "" }: SiteHeaderProps) {
         <nav className={styles.desktopNav} aria-label="Primary">
           <div
             className={styles.dropdown}
-            onMouseEnter={() => setOpenDropdown("products")}
+            onMouseEnter={() => handleHoverOpen("products")}
             onMouseLeave={() => setOpenDropdown(null)}
           >
             <button
@@ -67,7 +84,7 @@ export function SiteHeader({ className = "" }: SiteHeaderProps) {
               className={styles.dropdownTrigger}
               aria-expanded={openDropdown === "products"}
               aria-controls="nav-dropdown-products"
-              onClick={() => setOpenDropdown((cur) => (cur === "products" ? null : "products"))}
+              onClick={(e) => handleTriggerClick("products", e.detail)}
             >
               <span>Products</span>
               <img
@@ -106,7 +123,7 @@ export function SiteHeader({ className = "" }: SiteHeaderProps) {
 
           <div
             className={styles.dropdown}
-            onMouseEnter={() => setOpenDropdown("pages")}
+            onMouseEnter={() => handleHoverOpen("pages")}
             onMouseLeave={() => setOpenDropdown(null)}
           >
             <button
@@ -114,7 +131,7 @@ export function SiteHeader({ className = "" }: SiteHeaderProps) {
               className={styles.dropdownTrigger}
               aria-expanded={openDropdown === "pages"}
               aria-controls="nav-dropdown-pages"
-              onClick={() => setOpenDropdown((cur) => (cur === "pages" ? null : "pages"))}
+              onClick={(e) => handleTriggerClick("pages", e.detail)}
             >
               <span>pages</span>
               <img

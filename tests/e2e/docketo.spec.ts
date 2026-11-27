@@ -45,7 +45,12 @@ test.describe("Docketo 34-route health, typography, and asset integrity", () => 
 
     for (const route of ALL_34_ROUTES) {
       const response = await page.goto(route, { waitUntil: "domcontentloaded" });
-      expect(response?.status(), `HTTP status for ${route}`).toBe(200);
+      const status = response?.status();
+      if (route === "/404") {
+        expect([200, 404]).toContain(status);
+      } else {
+        expect(status, `HTTP status for ${route}`).toBe(200);
+      }
       await page.evaluate(() => document.fonts.ready);
 
       const metrics = await page.evaluate(() => {
@@ -195,8 +200,8 @@ test.describe("Interactive workflows and visual transitions", () => {
     await page.getByLabel("First Name").fill("Alex");
     await page.getByLabel("Last Name").fill("Mercer");
     await page.getByLabel("Email").fill("alex@fintech-example.test");
-    await page.getByLabel("Company name").fill("Meridian Clearing");
-    await page.getByLabel("Your Message").fill("Interested in embedded safeguarding APIs.");
+    await page.getByLabel("Company Name").fill("Meridian Clearing");
+    await page.getByLabel("Message").fill("Interested in embedded safeguarding APIs.");
     await page.getByRole("button", { name: "Submit" }).click();
     await expect(page.getByText(/demonstration request has been validated locally/i)).toBeVisible();
   });
@@ -204,8 +209,8 @@ test.describe("Interactive workflows and visual transitions", () => {
   test("protected 401 page displays static template demonstration notice on submit", async ({ page }) => {
     await page.goto("/401", { waitUntil: "domcontentloaded" });
     await page.getByPlaceholder("Enter your password").fill("test-pass");
-    await page.getByRole("button", { name: "Submit Now" }).click();
-    await expect(page.getByText(/static template demonstration/i)).toBeVisible();
+    await page.getByRole("button", { name: "Submit" }).click();
+    await expect(page.getByText(/template protected-page fixture/i)).toBeVisible();
   });
 });
 

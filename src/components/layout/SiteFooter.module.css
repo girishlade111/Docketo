@@ -47,7 +47,7 @@
   font-family: var(--font-body);
   font-size: 0.75rem;
   line-height: 1.25rem;
-  color: var(--color-neutral-dark);
+  color: #a5a198;
   letter-spacing: 0.01em;
 }
 
@@ -88,12 +88,13 @@
   margin: 0;
   font-size: 0.75rem;
   line-height: 1.25rem;
-  color: #6b6861;
+  color: #a5a198;
 }
 
 .attrLink {
-  color: #8f8b82;
-  text-decoration: none;
+  color: #cccac6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .attrLink:hover {

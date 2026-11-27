@@ -9,24 +9,26 @@ interface ArticleCardProps {
 
 export function ArticleCard({ article }: ArticleCardProps) {
   return (
-    <Link href={`/post/${article.slug}`} className={styles.card}>
-      <div className={styles.imageWrap}>
-        <img
-          src={article.coverAsset}
-          alt={article.title}
-          width={1440}
-          height={907}
-          className={styles.image}
-        />
-      </div>
-      <div className={styles.content}>
-        <h3 className={styles.title}>{article.title}</h3>
-        <div className={styles.meta}>
-          <span>{article.publishedAt}</span>
-          <span aria-hidden="true">.</span>
-          <span>{article.categoryLabel}</span>
+    <article className={styles.card}>
+      <Link href={`/post/${article.slug}`} className={styles.card}>
+        <div className={styles.imageWrap}>
+          <img
+            src={article.coverAsset}
+            alt={article.title}
+            width={1440}
+            height={907}
+            className={styles.image}
+          />
         </div>
-      </div>
-    </Link>
+        <div className={styles.content}>
+          <h3 className={styles.title}>{article.title}</h3>
+          <div className={styles.meta}>
+            <span>{article.publishedAt}</span>
+            <span aria-hidden="true">.</span>
+            <span>{article.categoryLabel}</span>
+          </div>
+        </div>
+      </Link>
+    </article>
   );
 }
