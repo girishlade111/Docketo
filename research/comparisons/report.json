@@ -1,0 +1,154 @@
+[
+  {
+    "target": "desktop-home",
+    "route": "/",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 10139
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 10415
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 3.16
+    }
+  },
+  {
+    "target": "desktop-about",
+    "route": "/about",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 6461
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 6468
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 24.31
+    }
+  },
+  {
+    "target": "desktop-pricing",
+    "route": "/pricing",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 3080
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 3044
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 20.83
+    }
+  },
+  {
+    "target": "desktop-contact",
+    "route": "/contact",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 1671
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 1548
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 9.6
+    }
+  },
+  {
+    "target": "desktop-embedded-bank",
+    "route": "/embedded-bank",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 5060
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 5208
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 8.8
+    }
+  },
+  {
+    "target": "desktop-news",
+    "route": "/news",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 2740
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 2703
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 46.99
+    }
+  },
+  {
+    "target": "desktop-style-guide",
+    "route": "/style-guide",
+    "comparison": {
+      "localSize": {
+        "width": 1440,
+        "height": 3092
+      },
+      "refSize": {
+        "width": 1440,
+        "height": 3280
+      },
+      "foldBox": {
+        "width": 1440,
+        "height": 900
+      },
+      "foldMismatchPct": 21.44
+    }
+  },
+  {
+    "target": "mobile-home",
+    "route": "/",
+    "comparison": {
+      "localSize": {
+        "width": 390,
+        "height": 8353
+      },
+      "refSize": {
+        "width": 780,
+        "height": 15944
+      },
+      "foldBox": {
+        "width": 390,
+        "height": 900
+      },
+      "foldMismatchPct": 38.23
+    }
+  }
+]
